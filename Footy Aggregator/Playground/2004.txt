@@ -1,0 +1,380 @@
+﻿May 15th 2005	Fulham - Norwich City	6-0
+May 15th 2005	Birmingham - Arsenal	2-1
+May 15th 2005	Bolton - Everton	3-2
+May 15th 2005	Charlton Athletic - Crystal Palace	2-2
+May 15th 2005	West Brom - Portsmouth	2-0
+May 15th 2005	Liverpool - Aston Villa	2-1
+May 15th 2005	Manchester City - Middlesbrough	1-1
+May 15th 2005	Newcastle - Chelsea	1-1
+May 15th 2005	Southampton - Manchester United	1-2
+May 15th 2005	Tottenham - Blackburn	0-0
+May 11th 2005	Arsenal - Everton	7-0
+May 10th 2005	Manchester United - Chelsea	1-3
+May 8th 2005	Arsenal - Liverpool	3-1
+May 7th 2005	Aston Villa - Manchester City	1-2
+May 7th 2005	Blackburn - Fulham	1-3
+May 7th 2005	Chelsea - Charlton Athletic	1-0
+May 7th 2005	Crystal Palace - Southampton	2-2
+May 7th 2005	Everton - Newcastle	2-0
+May 7th 2005	Manchester United - West Brom	1-1
+May 7th 2005	Middlesbrough - Tottenham	1-0
+May 7th 2005	Norwich City - Birmingham	1-0
+May 7th 2005	Portsmouth - Bolton	1-1
+May 4th 2005	Fulham - Newcastle	1-3
+May 2nd 2005	West Brom - Arsenal	0-2
+May 1st 2005	Charlton Athletic - Manchester United	0-4
+May 1st 2005	Tottenham - Aston Villa	5-1
+April 30th 2005	Birmingham - Blackburn	2-1
+April 30th 2005	Bolton - Chelsea	0-2
+April 30th 2005	Fulham - Everton	2-0
+April 30th 2005	Liverpool - Middlesbrough	1-1
+April 30th 2005	Manchester City - Portsmouth	2-0
+April 30th 2005	Newcastle - Crystal Palace	0-0
+April 30th 2005	Southampton - Norwich City	4-3
+April 27th 2005	Newcastle - Middlesbrough	0-0
+April 26th 2005	West Brom - Blackburn	1-1
+April 25th 2005	Arsenal - Tottenham	1-0
+April 24th 2005	Manchester United - Newcastle	2-1
+April 24th 2005	Portsmouth - Southampton	4-1
+April 23rd 2005	Aston Villa - Bolton	1-1
+April 23rd 2005	Blackburn - Manchester City	0-0
+April 23rd 2005	Chelsea - Fulham	3-1
+April 23rd 2005	Crystal Palace - Liverpool	1-0
+April 23rd 2005	Everton - Birmingham	1-1
+April 23rd 2005	Middlesbrough - West Brom	4-0
+April 23rd 2005	Norwich City - Charlton Athletic	1-0
+April 20th 2005	Aston Villa - Charlton Athletic	0-0
+April 20th 2005	Blackburn - Crystal Palace	1-0
+April 20th 2005	Chelsea - Arsenal	0-0
+April 20th 2005	Everton - Manchester United	1-0
+April 20th 2005	Manchester City - Birmingham	3-0
+April 20th 2005	Norwich City - Newcastle	2-1
+April 20th 2005	Portsmouth - Liverpool	1-2
+April 20th 2005	Tottenham - West Brom	1-1
+April 19th 2005	Middlesbrough - Fulham	1-1
+April 19th 2005	Bolton - Southampton	1-1
+April 16th 2005	Birmingham - Portsmouth	0-0
+April 16th 2005	Charlton Athletic - Bolton	1-2
+April 16th 2005	Crystal Palace - Norwich City	3-3
+April 16th 2005	Fulham - Manchester City	1-1
+April 16th 2005	Liverpool - Tottenham	2-2
+April 16th 2005	Southampton - Aston Villa	2-3
+April 10th 2005	Tottenham - Newcastle	1-0
+April 10th 2005	Everton - Crystal Palace	4-0
+April 10th 2005	Aston Villa - West Brom	1-1
+April 9th 2005	Blackburn - Southampton	3-0
+April 9th 2005	Bolton - Fulham	3-1
+April 9th 2005	Chelsea - Birmingham	1-1
+April 9th 2005	Manchester City - Liverpool	1-0
+April 9th 2005	Middlesbrough - Arsenal	0-1
+April 9th 2005	Norwich City - Manchester United	2-0
+April 9th 2005	Portsmouth - Charlton Athletic	4-2
+April 3rd 2005	Fulham - Portsmouth	3-1
+April 3rd 2005	West Brom - Everton	1-0
+April 2nd 2005	Arsenal - Norwich City	4-1
+April 2nd 2005	Birmingham - Tottenham	1-1
+April 2nd 2005	Charlton Athletic - Manchester City	2-2
+April 2nd 2005	Crystal Palace - Middlesbrough	0-1
+April 2nd 2005	Liverpool - Bolton	1-0
+April 2nd 2005	Manchester United - Blackburn	0-0
+April 2nd 2005	Newcastle - Aston Villa	0-3
+April 2nd 2005	Southampton - Chelsea	1-3
+March 20th 2005	Birmingham - Aston Villa	2-0
+March 20th 2005	Liverpool - Everton	2-1
+March 20th 2005	Middlesbrough - Southampton	1-3
+March 19th 2005	Blackburn - Arsenal	0-1
+March 19th 2005	Bolton - Norwich City	1-0
+March 19th 2005	Charlton Athletic - West Brom	1-4
+March 19th 2005	Chelsea - Crystal Palace	4-1
+March 19th 2005	Manchester United - Fulham	1-0
+March 19th 2005	Portsmouth - Newcastle	1-1
+March 19th 2005	Tottenham - Manchester City	2-1
+March 16th 2005	Liverpool - Blackburn	0-0
+March 16th 2005	Charlton Athletic - Tottenham	2-0
+March 15th 2005	Chelsea - West Brom	1-0
+March 7th 2005	Manchester City - Bolton	0-1
+March 6th 2005	Everton - Blackburn	0-1
+March 6th 2005	West Brom - Birmingham	2-0
+March 5th 2005	Arsenal - Portsmouth	3-0
+March 5th 2005	Aston Villa - Middlesbrough	2-0
+March 5th 2005	Crystal Palace - Manchester United	0-0
+March 5th 2005	Fulham - Charlton Athletic	0-0
+March 5th 2005	Newcastle - Liverpool	1-0
+March 5th 2005	Norwich City - Chelsea	1-3
+March 5th 2005	Southampton - Tottenham	1-0
+February 28th 2005	Norwich City - Manchester City	2-3
+February 27th 2005	Newcastle - Bolton	2-1
+February 27th 2005	Middlesbrough - Charlton Athletic	2-2
+February 26th 2005	Aston Villa - Everton	1-3
+February 26th 2005	Crystal Palace - Birmingham	2-0
+February 26th 2005	Manchester United - Portsmouth	2-1
+February 26th 2005	Southampton - Arsenal	1-1
+February 26th 2005	Tottenham - Fulham	2-0
+February 22nd 2005	West Brom - Southampton	0-0
+February 14th 2005	Arsenal - Crystal Palace	5-1
+February 13th 2005	Manchester City - Manchester United	0-2
+February 12th 2005	Birmingham - Liverpool	2-0
+February 12th 2005	Blackburn - Norwich City	3-0
+February 12th 2005	Bolton - Middlesbrough	0-0
+February 12th 2005	Everton - Chelsea	0-1
+February 12th 2005	Portsmouth - Aston Villa	1-2
+February 6th 2005	Chelsea - Manchester City	0-0
+February 6th 2005	Southampton - Everton	2-2
+February 5th 2005	Aston Villa - Arsenal	1-3
+February 5th 2005	Crystal Palace - Bolton	0-1
+February 5th 2005	Liverpool - Fulham	3-1
+February 5th 2005	Manchester United - Birmingham	2-0
+February 5th 2005	Middlesbrough - Blackburn	1-0
+February 5th 2005	Newcastle - Charlton Athletic	1-1
+February 5th 2005	Norwich City - West Brom	3-2
+February 5th 2005	Tottenham - Portsmouth	3-1
+February 2nd 2005	Birmingham - Southampton	2-1
+February 2nd 2005	Blackburn - Chelsea	0-1
+February 2nd 2005	Everton - Norwich City	1-0
+February 2nd 2005	Fulham - Aston Villa	1-1
+February 2nd 2005	Manchester City - Newcastle	1-1
+February 1st 2005	Arsenal - Manchester United	2-4
+February 1st 2005	Bolton - Tottenham	3-1
+February 1st 2005	Charlton Athletic - Liverpool	1-2
+February 1st 2005	Portsmouth - Middlesbrough	2-1
+February 1st 2005	West Brom - Crystal Palace	2-2
+January 24th 2005	Blackburn - Bolton	0-1
+January 23rd 2005	Arsenal - Newcastle	1-0
+January 22nd 2005	Birmingham - Fulham	1-2
+January 22nd 2005	Chelsea - Portsmouth	3-0
+January 22nd 2005	Crystal Palace - Tottenham	3-0
+January 22nd 2005	Everton - Charlton Athletic	0-1
+January 22nd 2005	Manchester United - Aston Villa	3-1
+January 22nd 2005	Norwich City - Middlesbrough	4-4
+January 22nd 2005	West Brom - Manchester City	2-0
+January 22nd 2005	Southampton - Liverpool	2-0
+January 16th 2005	Fulham - West Brom	1-0
+January 16th 2005	Middlesbrough - Everton	1-1
+January 15th 2005	Aston Villa - Norwich City	3-0
+January 15th 2005	Bolton - Arsenal	1-0
+January 15th 2005	Charlton Athletic - Birmingham	3-1
+January 15th 2005	Liverpool - Manchester United	0-1
+January 15th 2005	Manchester City - Crystal Palace	3-1
+January 15th 2005	Newcastle - Southampton	2-1
+January 15th 2005	Portsmouth - Blackburn	0-1
+January 15th 2005	Tottenham - Chelsea	0-2
+January 5th 2005	Southampton - Fulham	3-3
+January 4th 2005	Arsenal - Manchester City	1-1
+January 4th 2005	Birmingham - Bolton	1-2
+January 4th 2005	Chelsea - Middlesbrough	2-0
+January 4th 2005	Everton - Portsmouth	2-1
+January 4th 2005	Manchester United - Tottenham	0-0
+January 3rd 2005	Blackburn - Charlton Athletic	1-0
+January 3rd 2005	Crystal Palace - Aston Villa	2-0
+January 3rd 2005	Norwich City - Liverpool	1-2
+January 3rd 2005	West Brom - Newcastle	0-0
+January 1st 2005	Aston Villa - Blackburn	1-0
+January 1st 2005	Bolton - West Brom	1-1
+January 1st 2005	Charlton Athletic - Arsenal	1-3
+January 1st 2005	Fulham - Crystal Palace	3-1
+January 1st 2005	Liverpool - Chelsea	0-1
+January 1st 2005	Manchester City - Southampton	2-1
+January 1st 2005	Middlesbrough - Manchester United	0-2
+January 1st 2005	Newcastle - Birmingham	2-1
+January 1st 2005	Portsmouth - Norwich City	1-1
+January 1st 2005	Tottenham - Everton	5-2
+December 29th 2004	Newcastle - Arsenal	0-1
+December 28th 2004	Bolton - Blackburn	0-1
+December 28th 2004	Charlton Athletic - Everton	2-0
+December 28th 2004	Fulham - Birmingham	2-3
+December 28th 2004	Liverpool - Southampton	1-0
+December 28th 2004	Manchester City - West Brom	1-1
+December 28th 2004	Middlesbrough - Norwich City	2-0
+December 28th 2004	Portsmouth - Chelsea	0-2
+December 28th 2004	Tottenham - Crystal Palace	1-1
+December 28th 2004	Aston Villa - Manchester United	0-1
+December 26th 2004	West Brom - Liverpool	0-5
+December 26th 2004	Arsenal - Fulham	2-0
+December 26th 2004	Birmingham - Middlesbrough	2-0
+December 26th 2004	Blackburn - Newcastle	2-2
+December 26th 2004	Chelsea - Aston Villa	1-0
+December 26th 2004	Crystal Palace - Portsmouth	0-1
+December 26th 2004	Everton - Manchester City	2-1
+December 26th 2004	Manchester United - Bolton	2-0
+December 26th 2004	Norwich City - Tottenham	0-2
+December 26th 2004	Southampton - Charlton Athletic	0-0
+December 20th 2004	Charlton Athletic - Fulham	2-1
+December 19th 2004	Liverpool - Newcastle	3-1
+December 19th 2004	Portsmouth - Arsenal	0-1
+December 18th 2004	Birmingham - West Brom	4-0
+December 18th 2004	Blackburn - Everton	0-0
+December 18th 2004	Bolton - Manchester City	0-1
+December 18th 2004	Chelsea - Norwich City	4-0
+December 18th 2004	Manchester United - Crystal Palace	5-2
+December 18th 2004	Middlesbrough - Aston Villa	3-0
+December 18th 2004	Tottenham - Southampton	5-1
+December 14th 2004	Liverpool - Portsmouth	1-1
+December 13th 2004	Fulham - Manchester United	1-1
+December 12th 2004	Arsenal - Chelsea	2-2
+December 12th 2004	Aston Villa - Birmingham	1-2
+December 11th 2004	Crystal Palace - Blackburn	0-0
+December 11th 2004	Everton - Liverpool	1-0
+December 11th 2004	Manchester City - Tottenham	0-1
+December 11th 2004	Newcastle - Portsmouth	1-1
+December 11th 2004	Norwich City - Bolton	3-2
+December 11th 2004	Southampton - Middlesbrough	2-2
+December 11th 2004	West Brom - Charlton Athletic	0-1
+December 6th 2004	Middlesbrough - Manchester City	3-2
+December 5th 2004	Crystal Palace - Charlton Athletic	0-1
+December 4th 2004	Arsenal - Birmingham	3-0
+December 4th 2004	Aston Villa - Liverpool	1-1
+December 4th 2004	Blackburn - Tottenham	0-1
+December 4th 2004	Chelsea - Newcastle	4-0
+December 4th 2004	Everton - Bolton	3-2
+December 4th 2004	Manchester United - Southampton	3-0
+December 4th 2004	Norwich City - Fulham	0-1
+December 4th 2004	Portsmouth - West Brom	3-2
+November 28th 2004	Liverpool - Arsenal	2-1
+November 28th 2004	Newcastle - Everton	1-1
+November 28th 2004	Tottenham - Middlesbrough	2-0
+November 27th 2004	Birmingham - Norwich City	1-1
+November 27th 2004	Bolton - Portsmouth	0-1
+November 27th 2004	Charlton Athletic - Chelsea	0-4
+November 27th 2004	Manchester City - Aston Villa	2-0
+November 27th 2004	Fulham - Blackburn	0-2
+November 27th 2004	Southampton - Crystal Palace	2-2
+November 27th 2004	West Brom - Manchester United	0-3
+November 22nd 2004	Aston Villa - Tottenham	1-0
+November 21st 2004	Blackburn - Birmingham	3-3
+November 20th 2004	Arsenal - West Brom	1-1
+November 20th 2004	Chelsea - Bolton	2-2
+November 20th 2004	Crystal Palace - Newcastle	0-2
+November 20th 2004	Everton - Fulham	1-0
+November 20th 2004	Manchester United - Charlton Athletic	2-0
+November 20th 2004	Middlesbrough - Liverpool	2-0
+November 20th 2004	Norwich City - Southampton	2-1
+November 20th 2004	Portsmouth - Manchester City	1-3
+November 14th 2004	Newcastle - Manchester United	1-3
+November 14th 2004	West Brom - Middlesbrough	1-2
+November 13th 2004	Birmingham - Everton	0-1
+November 13th 2004	Bolton - Aston Villa	1-2
+November 13th 2004	Charlton Athletic - Norwich City	4-0
+November 13th 2004	Fulham - Chelsea	1-4
+November 13th 2004	Liverpool - Crystal Palace	3-2
+November 13th 2004	Manchester City - Blackburn	1-1
+November 13th 2004	Southampton - Portsmouth	2-1
+November 13th 2004	Tottenham - Arsenal	4-5
+November 7th 2004	Manchester United - Manchester City	0-0
+November 7th 2004	Middlesbrough - Bolton	1-1
+November 7th 2004	Newcastle - Fulham	1-4
+November 6th 2004	Aston Villa - Portsmouth	3-0
+November 6th 2004	Chelsea - Everton	1-0
+November 6th 2004	Crystal Palace - Arsenal	1-1
+November 6th 2004	Liverpool - Birmingham	0-1
+November 6th 2004	Norwich City - Blackburn	1-1
+November 6th 2004	Southampton - West Brom	2-2
+November 6th 2004	Tottenham - Charlton Athletic	2-3
+November 1st 2004	Manchester City - Norwich City	1-1
+October 31st 2004	Bolton - Newcastle	2-1
+October 30th 2004	Arsenal - Southampton	2-2
+October 30th 2004	Birmingham - Crystal Palace	0-1
+October 30th 2004	Blackburn - Liverpool	2-2
+October 30th 2004	Charlton Athletic - Middlesbrough	1-2
+October 30th 2004	Everton - Aston Villa	1-1
+October 30th 2004	Fulham - Tottenham	2-0
+October 30th 2004	Portsmouth - Manchester United	2-0
+October 30th 2004	West Brom - Chelsea	1-4
+October 24th 2004	Manchester United - Arsenal	2-0
+October 24th 2004	Middlesbrough - Portsmouth	1-1
+October 24th 2004	Newcastle - Manchester City	4-3
+October 24th 2004	Southampton - Birmingham	0-0
+October 23rd 2004	Tottenham - Bolton	1-2
+October 23rd 2004	Norwich City - Everton	2-3
+October 23rd 2004	Liverpool - Charlton Athletic	2-0
+October 23rd 2004	Crystal Palace - West Brom	3-0
+October 23rd 2004	Chelsea - Blackburn	4-0
+October 23rd 2004	Aston Villa - Fulham	2-0
+October 18th 2004	Portsmouth - Tottenham	1-0
+October 17th 2004	Charlton Athletic - Newcastle	1-1
+October 16th 2004	West Brom - Norwich City	0-0
+October 16th 2004	Arsenal - Aston Villa	3-1
+October 16th 2004	Birmingham - Manchester United	0-0
+October 16th 2004	Blackburn - Middlesbrough	0-4
+October 16th 2004	Bolton - Crystal Palace	1-0
+October 16th 2004	Everton - Southampton	1-0
+October 16th 2004	Fulham - Liverpool	2-4
+October 16th 2004	Manchester City - Chelsea	1-0
+October 4th 2004	Crystal Palace - Fulham	2-0
+October 3rd 2004	Manchester United - Middlesbrough	1-1
+October 3rd 2004	Chelsea - Liverpool	1-0
+October 3rd 2004	Birmingham - Newcastle	2-2
+October 2nd 2004	Arsenal - Charlton Athletic	4-0
+October 2nd 2004	Blackburn - Aston Villa	2-2
+October 2nd 2004	Norwich City - Portsmouth	2-2
+October 2nd 2004	Southampton - Manchester City	0-0
+October 2nd 2004	West Brom - Bolton	2-1
+October 2nd 2004	Everton - Tottenham	0-1
+September 27th 2004	Charlton Athletic - Blackburn	1-0
+September 26th 2004	Portsmouth - Everton	0-1
+September 25th 2004	Liverpool - Norwich City	3-0
+September 25th 2004	Aston Villa - Crystal Palace	1-1
+September 25th 2004	Bolton - Birmingham	1-1
+September 25th 2004	Fulham - Southampton	1-0
+September 25th 2004	Manchester City - Arsenal	0-1
+September 25th 2004	Middlesbrough - Chelsea	0-1
+September 25th 2004	Newcastle - West Brom	3-1
+September 25th 2004	Tottenham - Manchester United	0-1
+September 20th 2004	Manchester United - Liverpool	2-1
+September 19th 2004	Chelsea - Tottenham	0-0
+September 19th 2004	Everton - Middlesbrough	1-0
+September 19th 2004	Southampton - Newcastle	1-2
+September 18th 2004	Arsenal - Bolton	2-2
+September 18th 2004	Birmingham - Charlton Athletic	1-1
+September 18th 2004	Blackburn - Portsmouth	1-0
+September 18th 2004	Crystal Palace - Manchester City	1-2
+September 18th 2004	West Brom - Fulham	1-1
+September 18th 2004	Norwich City - Aston Villa	0-0
+September 13th 2004	Charlton Athletic - Southampton	0-0
+September 12th 2004	Tottenham - Norwich City	0-0
+September 11th 2004	Aston Villa - Chelsea	0-0
+September 11th 2004	Bolton - Manchester United	2-2
+September 11th 2004	Fulham - Arsenal	0-3
+September 11th 2004	Liverpool - West Brom	3-0
+September 11th 2004	Manchester City - Everton	0-1
+September 11th 2004	Middlesbrough - Birmingham	2-1
+September 11th 2004	Newcastle - Blackburn	3-0
+September 11th 2004	Portsmouth - Crystal Palace	3-1
+August 30th 2004	Manchester United - Everton	0-0
+August 30th 2004	Portsmouth - Fulham	4-3
+August 29th 2004	Bolton - Liverpool	1-0
+August 28th 2004	Aston Villa - Newcastle	4-2
+August 28th 2004	Blackburn - Manchester United	1-1
+August 28th 2004	Chelsea - Southampton	2-1
+August 28th 2004	Everton - West Brom	2-1
+August 28th 2004	Manchester City - Charlton Athletic	4-0
+August 28th 2004	Middlesbrough - Crystal Palace	2-1
+August 28th 2004	Norwich City - Arsenal	1-4
+August 28th 2004	Tottenham - Birmingham	1-0
+August 25th 2004	Charlton Athletic - Aston Villa	3-0
+August 25th 2004	Arsenal - Blackburn	3-0
+August 25th 2004	Fulham - Middlesbrough	0-2
+August 25th 2004	Newcastle - Norwich City	2-2
+August 25th 2004	West Brom - Tottenham	1-1
+August 25th 2004	Southampton - Bolton	1-2
+August 24th 2004	Crystal Palace - Chelsea	0-2
+August 24th 2004	Birmingham - Manchester City	1-0
+August 22nd 2004	West Brom - Aston Villa	1-1
+August 22nd 2004	Arsenal - Middlesbrough	5-3
+August 21st 2004	Birmingham - Chelsea	0-1
+August 21st 2004	Charlton Athletic - Portsmouth	2-1
+August 21st 2004	Crystal Palace - Everton	1-3
+August 21st 2004	Fulham - Bolton	2-0
+August 21st 2004	Liverpool - Manchester City	2-1
+August 21st 2004	Manchester United - Norwich City	2-1
+August 21st 2004	Newcastle - Tottenham	0-1
+August 21st 2004	Southampton - Blackburn	3-2
+August 15th 2004	Everton - Arsenal	1-4
+August 15th 2004	Chelsea - Manchester United	1-0
+August 14th 2004	Tottenham - Liverpool	1-1
+August 14th 2004	Aston Villa - Southampton	2-0
+August 14th 2004	Norwich City - Crystal Palace	1-1
+August 14th 2004	Middlesbrough - Newcastle	2-2
+August 14th 2004	Manchester City - Fulham	1-1
+August 14th 2004	Bolton - Charlton Athletic	4-1
+August 14th 2004	Blackburn - West Brom	1-1
+August 14th 2004	Portsmouth - Birmingham	1-1

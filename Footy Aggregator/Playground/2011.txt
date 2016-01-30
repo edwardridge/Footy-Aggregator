@@ -1,0 +1,380 @@
+﻿May 13th 2012	Norwich City - Aston Villa	2-0
+May 13th 2012	Wigan - Wolverhampton	3-2
+May 13th 2012	Chelsea - Blackburn	2-1
+May 13th 2012	Everton - Newcastle	3-1
+May 13th 2012	Manchester City - Queens Park Rangers	3-2
+May 13th 2012	Stoke City - Bolton	2-2
+May 13th 2012	Sunderland - Manchester United	0-1
+May 13th 2012	Swansea - Liverpool	1-0
+May 13th 2012	Tottenham - Fulham	2-0
+May 13th 2012	West Brom - Arsenal	2-3
+May 8th 2012	Liverpool - Chelsea	4-1
+May 7th 2012	Blackburn - Wigan	0-1
+May 6th 2012	Aston Villa - Tottenham	1-1
+May 6th 2012	Bolton - West Brom	2-2
+May 6th 2012	Fulham - Sunderland	2-1
+May 6th 2012	Manchester United - Swansea	2-0
+May 6th 2012	Newcastle - Manchester City	0-2
+May 6th 2012	Queens Park Rangers - Stoke City	1-0
+May 6th 2012	Wolverhampton - Everton	0-0
+May 5th 2012	Arsenal - Norwich City	3-3
+May 2nd 2012	Chelsea - Newcastle	0-2
+May 2nd 2012	Bolton - Tottenham	1-4
+May 1st 2012	Liverpool - Fulham	0-1
+May 1st 2012	Stoke City - Everton	1-1
+April 30th 2012	Manchester City - Manchester United	1-0
+April 29th 2012	Tottenham - Blackburn	2-0
+April 29th 2012	Chelsea - Queens Park Rangers	6-1
+April 28th 2012	Everton - Fulham	4-0
+April 28th 2012	Norwich City - Liverpool	0-3
+April 28th 2012	Stoke City - Arsenal	1-1
+April 28th 2012	Sunderland - Bolton	2-2
+April 28th 2012	Swansea - Wolverhampton	4-4
+April 28th 2012	West Brom - Aston Villa	0-0
+April 28th 2012	Wigan - Newcastle	4-0
+April 24th 2012	Aston Villa - Bolton	1-2
+April 22nd 2012	Liverpool - West Brom	0-1
+April 22nd 2012	Manchester United - Everton	4-4
+April 22nd 2012	Wolverhampton - Manchester City	0-2
+April 21st 2012	Arsenal - Chelsea	0-0
+April 21st 2012	Aston Villa - Sunderland	0-0
+April 21st 2012	Blackburn - Norwich City	2-0
+April 21st 2012	Bolton - Swansea	1-1
+April 21st 2012	Fulham - Wigan	2-1
+April 21st 2012	Newcastle - Stoke City	3-0
+April 21st 2012	Queens Park Rangers - Tottenham	1-0
+April 16th 2012	Arsenal - Wigan	1-2
+April 15th 2012	Manchester United - Aston Villa	4-0
+April 14th 2012	Norwich City - Manchester City	1-6
+April 14th 2012	Sunderland - Wolverhampton	0-0
+April 14th 2012	Swansea - Blackburn	3-0
+April 14th 2012	West Brom - Queens Park Rangers	1-0
+April 11th 2012	Wolverhampton - Arsenal	0-3
+April 11th 2012	Wigan - Manchester United	1-0
+April 11th 2012	Queens Park Rangers - Swansea	3-0
+April 11th 2012	Manchester City - West Brom	4-0
+April 10th 2012	Blackburn - Liverpool	2-3
+April 9th 2012	Aston Villa - Stoke City	1-1
+April 9th 2012	Everton - Sunderland	4-0
+April 9th 2012	Fulham - Chelsea	1-1
+April 9th 2012	Newcastle - Bolton	2-0
+April 9th 2012	Tottenham - Norwich City	1-2
+April 8th 2012	Manchester United - Queens Park Rangers	2-0
+April 8th 2012	Arsenal - Manchester City	1-0
+April 7th 2012	Bolton - Fulham	0-3
+April 7th 2012	Chelsea - Wigan	2-1
+April 7th 2012	Liverpool - Aston Villa	1-1
+April 7th 2012	Norwich City - Everton	2-2
+April 7th 2012	Stoke City - Wolverhampton	2-1
+April 7th 2012	Sunderland - Tottenham	0-0
+April 7th 2012	West Brom - Blackburn	3-0
+April 6th 2012	Swansea - Newcastle	0-2
+April 2nd 2012	Blackburn - Manchester United	0-2
+April 1st 2012	Newcastle - Liverpool	2-0
+April 1st 2012	Tottenham - Swansea	3-1
+March 31st 2012	Aston Villa - Chelsea	2-4
+March 31st 2012	Everton - West Brom	2-0
+March 31st 2012	Fulham - Norwich City	2-1
+March 31st 2012	Queens Park Rangers - Arsenal	2-1
+March 31st 2012	Wigan - Stoke City	2-0
+March 31st 2012	Wolverhampton - Bolton	2-3
+March 31st 2012	Manchester City - Sunderland	3-3
+March 26th 2012	Manchester United - Fulham	1-0
+March 25th 2012	West Brom - Newcastle	1-3
+March 24th 2012	Bolton - Blackburn	2-1
+March 24th 2012	Arsenal - Aston Villa	3-0
+March 24th 2012	Swansea - Everton	0-2
+March 24th 2012	Chelsea - Tottenham	0-0
+March 24th 2012	Liverpool - Wigan	1-2
+March 24th 2012	Norwich City - Wolverhampton	2-1
+March 24th 2012	Stoke City - Manchester City	1-1
+March 24th 2012	Sunderland - Queens Park Rangers	3-1
+March 21st 2012	Tottenham - Stoke City	1-1
+March 21st 2012	Queens Park Rangers - Liverpool	3-2
+March 21st 2012	Manchester City - Chelsea	2-1
+March 21st 2012	Everton - Arsenal	0-1
+March 20th 2012	Blackburn - Sunderland	2-0
+March 18th 2012	Wolverhampton - Manchester United	0-5
+March 18th 2012	Newcastle - Norwich City	1-0
+March 17th 2012	Wigan - West Brom	1-1
+March 17th 2012	Fulham - Swansea	0-3
+March 13th 2012	Liverpool - Everton	3-0
+March 12th 2012	Arsenal - Newcastle	2-1
+March 11th 2012	Manchester United - West Brom	2-0
+March 11th 2012	Norwich City - Wigan	1-1
+March 11th 2012	Swansea - Manchester City	1-0
+March 10th 2012	Aston Villa - Fulham	1-0
+March 10th 2012	Bolton - Queens Park Rangers	2-1
+March 10th 2012	Chelsea - Stoke City	1-0
+March 10th 2012	Everton - Tottenham	1-0
+March 10th 2012	Sunderland - Liverpool	1-0
+March 10th 2012	Wolverhampton - Blackburn	0-2
+March 4th 2012	Tottenham - Manchester United	1-3
+March 4th 2012	Newcastle - Sunderland	1-1
+March 4th 2012	Fulham - Wolverhampton	5-0
+March 3rd 2012	Blackburn - Aston Villa	1-1
+March 3rd 2012	Liverpool - Arsenal	1-2
+March 3rd 2012	Manchester City - Bolton	2-0
+March 3rd 2012	Queens Park Rangers - Everton	1-1
+March 3rd 2012	Stoke City - Norwich City	1-0
+March 3rd 2012	West Brom - Chelsea	1-0
+March 3rd 2012	Wigan - Swansea	0-2
+February 26th 2012	Stoke City - Swansea	2-0
+February 26th 2012	Norwich City - Manchester United	1-2
+February 26th 2012	Arsenal - Tottenham	5-2
+February 25th 2012	Chelsea - Bolton	3-0
+February 25th 2012	Manchester City - Blackburn	3-0
+February 25th 2012	Newcastle - Wolverhampton	2-2
+February 25th 2012	Queens Park Rangers - Fulham	0-1
+February 25th 2012	West Brom - Sunderland	4-0
+February 25th 2012	Wigan - Aston Villa	0-0
+February 12th 2012	Aston Villa - Manchester City	0-1
+February 12th 2012	Wolverhampton - West Brom	1-5
+February 11th 2012	Blackburn - Queens Park Rangers	3-2
+February 11th 2012	Bolton - Wigan	1-2
+February 11th 2012	Everton - Chelsea	2-0
+February 11th 2012	Fulham - Stoke City	2-1
+February 11th 2012	Manchester United - Liverpool	2-1
+February 11th 2012	Sunderland - Arsenal	1-2
+February 11th 2012	Swansea - Norwich City	2-3
+February 11th 2012	Tottenham - Newcastle	5-0
+February 6th 2012	Liverpool - Tottenham	0-0
+February 5th 2012	Chelsea - Manchester United	3-3
+February 5th 2012	Newcastle - Aston Villa	2-1
+February 4th 2012	Wigan - Everton	1-1
+February 4th 2012	Arsenal - Blackburn	7-1
+February 4th 2012	Manchester City - Fulham	3-0
+February 4th 2012	Norwich City - Bolton	2-0
+February 4th 2012	Queens Park Rangers - Wolverhampton	1-2
+February 4th 2012	Stoke City - Sunderland	0-1
+February 4th 2012	West Brom - Swansea	1-2
+February 1st 2012	Aston Villa - Queens Park Rangers	2-2
+February 1st 2012	Blackburn - Newcastle	0-2
+February 1st 2012	Bolton - Arsenal	0-0
+February 1st 2012	Fulham - West Brom	1-1
+February 1st 2012	Sunderland - Norwich City	3-0
+January 31st 2012	Everton - Manchester City	1-0
+January 31st 2012	Manchester United - Stoke City	2-0
+January 31st 2012	Swansea - Chelsea	1-1
+January 31st 2012	Tottenham - Wigan	3-1
+January 31st 2012	Wolverhampton - Liverpool	0-3
+January 22nd 2012	Manchester City - Tottenham	3-2
+January 22nd 2012	Arsenal - Manchester United	1-2
+January 21st 2012	Bolton - Liverpool	3-1
+January 21st 2012	Everton - Blackburn	1-1
+January 21st 2012	Fulham - Newcastle	5-2
+January 21st 2012	Norwich City - Chelsea	0-0
+January 21st 2012	Queens Park Rangers - Wigan	3-1
+January 21st 2012	Stoke City - West Brom	1-2
+January 21st 2012	Sunderland - Swansea	2-0
+January 21st 2012	Wolverhampton - Aston Villa	2-3
+January 16th 2012	Wigan - Manchester City	0-1
+January 15th 2012	Newcastle - Queens Park Rangers	1-0
+January 15th 2012	Swansea - Arsenal	3-2
+January 14th 2012	Aston Villa - Everton	1-1
+January 14th 2012	Blackburn - Fulham	3-1
+January 14th 2012	Chelsea - Sunderland	1-0
+January 14th 2012	Liverpool - Stoke City	0-0
+January 14th 2012	Manchester United - Bolton	3-0
+January 14th 2012	Tottenham - Wolverhampton	1-1
+January 14th 2012	West Brom - Norwich City	1-2
+January 11th 2012	Tottenham - Everton	2-0
+January 4th 2012	Newcastle - Manchester United	3-0
+January 4th 2012	Everton - Bolton	1-2
+January 3rd 2012	Manchester City - Liverpool	3-0
+January 3rd 2012	Tottenham - West Brom	1-0
+January 3rd 2012	Wigan - Sunderland	1-4
+January 2nd 2012	Wolverhampton - Chelsea	1-2
+January 2nd 2012	Queens Park Rangers - Norwich City	1-2
+January 2nd 2012	Fulham - Arsenal	2-1
+January 2nd 2012	Blackburn - Stoke City	1-2
+January 2nd 2012	Aston Villa - Swansea	0-2
+January 1st 2012	West Brom - Everton	0-1
+January 1st 2012	Sunderland - Manchester City	1-0
+December 31st 2011	Arsenal - Queens Park Rangers	1-0
+December 31st 2011	Bolton - Wolverhampton	1-1
+December 31st 2011	Chelsea - Aston Villa	1-3
+December 31st 2011	Manchester United - Blackburn	2-3
+December 31st 2011	Norwich City - Fulham	1-1
+December 31st 2011	Stoke City - Wigan	2-2
+December 31st 2011	Swansea - Tottenham	1-1
+December 30th 2011	Liverpool - Newcastle	3-1
+December 27th 2011	Arsenal - Wolverhampton	1-1
+December 27th 2011	Norwich City - Tottenham	0-2
+December 27th 2011	Swansea - Queens Park Rangers	1-1
+December 26th 2011	Bolton - Newcastle	0-2
+December 26th 2011	Chelsea - Fulham	1-1
+December 26th 2011	Liverpool - Blackburn	1-1
+December 26th 2011	Manchester United - Wigan	5-0
+December 26th 2011	Stoke City - Aston Villa	0-0
+December 26th 2011	Sunderland - Everton	1-1
+December 26th 2011	West Brom - Manchester City	0-0
+December 22nd 2011	Tottenham - Chelsea	1-1
+December 21st 2011	Aston Villa - Arsenal	1-2
+December 21st 2011	Everton - Swansea	1-0
+December 21st 2011	Fulham - Manchester United	0-5
+December 21st 2011	Manchester City - Stoke City	3-0
+December 21st 2011	Newcastle - West Brom	2-3
+December 21st 2011	Queens Park Rangers - Sunderland	2-3
+December 21st 2011	Wigan - Liverpool	0-0
+December 20th 2011	Wolverhampton - Norwich City	2-2
+December 20th 2011	Blackburn - Bolton	1-2
+December 18th 2011	Aston Villa - Liverpool	0-2
+December 18th 2011	Manchester City - Arsenal	1-0
+December 18th 2011	Queens Park Rangers - Manchester United	0-2
+December 18th 2011	Tottenham - Sunderland	1-0
+December 17th 2011	Wolverhampton - Stoke City	1-2
+December 17th 2011	Wigan - Chelsea	1-1
+December 17th 2011	Newcastle - Swansea	0-0
+December 17th 2011	Fulham - Bolton	2-0
+December 17th 2011	Everton - Norwich City	1-1
+December 17th 2011	Blackburn - West Brom	1-2
+December 12th 2011	Chelsea - Manchester City	2-1
+December 11th 2011	Sunderland - Blackburn	2-1
+December 11th 2011	Stoke City - Tottenham	2-1
+December 10th 2011	Arsenal - Everton	1-0
+December 10th 2011	Bolton - Aston Villa	1-2
+December 10th 2011	Liverpool - Queens Park Rangers	1-0
+December 10th 2011	Norwich City - Newcastle	4-2
+December 10th 2011	Manchester United - Wolverhampton	4-1
+December 10th 2011	Swansea - Fulham	2-0
+December 10th 2011	West Brom - Wigan	1-2
+December 5th 2011	Fulham - Liverpool	1-0
+December 4th 2011	Wolverhampton - Sunderland	2-1
+December 4th 2011	Everton - Stoke City	0-1
+December 3rd 2011	Aston Villa - Manchester United	0-1
+December 3rd 2011	Blackburn - Swansea	4-2
+December 3rd 2011	Manchester City - Norwich City	5-1
+December 3rd 2011	Newcastle - Chelsea	0-3
+December 3rd 2011	Queens Park Rangers - West Brom	1-1
+December 3rd 2011	Tottenham - Bolton	3-0
+December 3rd 2011	Wigan - Arsenal	0-4
+November 27th 2011	Swansea - Aston Villa	0-0
+November 27th 2011	Liverpool - Manchester City	1-1
+November 26th 2011	Arsenal - Fulham	1-1
+November 26th 2011	Bolton - Everton	0-2
+November 26th 2011	Chelsea - Wolverhampton	3-0
+November 26th 2011	Manchester United - Newcastle	1-1
+November 26th 2011	Norwich City - Queens Park Rangers	2-1
+November 26th 2011	Stoke City - Blackburn	3-1
+November 26th 2011	Sunderland - Wigan	1-2
+November 26th 2011	West Brom - Tottenham	1-3
+November 21st 2011	Tottenham - Aston Villa	2-0
+November 20th 2011	Chelsea - Liverpool	1-2
+November 19th 2011	Wigan - Blackburn	3-3
+November 19th 2011	Everton - Wolverhampton	2-1
+November 19th 2011	Manchester City - Newcastle	3-1
+November 19th 2011	Norwich City - Arsenal	1-2
+November 19th 2011	Stoke City - Queens Park Rangers	2-3
+November 19th 2011	Sunderland - Fulham	0-0
+November 19th 2011	Swansea - Manchester United	0-1
+November 19th 2011	West Brom - Bolton	2-1
+November 6th 2011	Wolverhampton - Wigan	3-1
+November 6th 2011	Fulham - Tottenham	1-3
+November 6th 2011	Bolton - Stoke City	5-0
+November 5th 2011	Arsenal - West Brom	3-0
+November 5th 2011	Aston Villa - Norwich City	3-2
+November 5th 2011	Blackburn - Chelsea	0-1
+November 5th 2011	Liverpool - Swansea	0-0
+November 5th 2011	Manchester United - Sunderland	1-0
+November 5th 2011	Newcastle - Everton	2-1
+November 5th 2011	Queens Park Rangers - Manchester City	2-3
+October 31st 2011	Stoke City - Newcastle	1-3
+October 30th 2011	Tottenham - Queens Park Rangers	3-1
+October 29th 2011	Chelsea - Arsenal	3-5
+October 29th 2011	Everton - Manchester United	0-1
+October 29th 2011	Manchester City - Wolverhampton	3-1
+October 29th 2011	Norwich City - Blackburn	3-3
+October 29th 2011	Sunderland - Aston Villa	2-2
+October 29th 2011	Swansea - Bolton	3-1
+October 29th 2011	West Brom - Liverpool	0-2
+October 29th 2011	Wigan - Fulham	0-2
+October 23rd 2011	Arsenal - Stoke City	3-1
+October 23rd 2011	Blackburn - Tottenham	1-2
+October 23rd 2011	Fulham - Everton	1-3
+October 23rd 2011	Manchester United - Manchester City	1-6
+October 23rd 2011	Queens Park Rangers - Chelsea	1-0
+October 22nd 2011	Aston Villa - West Brom	1-2
+October 22nd 2011	Bolton - Sunderland	0-2
+October 22nd 2011	Liverpool - Norwich City	1-1
+October 22nd 2011	Newcastle - Wigan	1-0
+October 22nd 2011	Wolverhampton - Swansea	2-2
+October 16th 2011	West Brom - Wolverhampton	2-0
+October 16th 2011	Newcastle - Tottenham	2-2
+October 16th 2011	Arsenal - Sunderland	2-1
+October 15th 2011	Chelsea - Everton	3-1
+October 15th 2011	Liverpool - Manchester United	1-1
+October 15th 2011	Norwich City - Swansea	3-1
+October 15th 2011	Queens Park Rangers - Blackburn	1-1
+October 15th 2011	Manchester City - Aston Villa	4-1
+October 15th 2011	Stoke City - Fulham	2-0
+October 15th 2011	Wigan - Bolton	1-3
+October 2nd 2011	Bolton - Chelsea	1-5
+October 2nd 2011	Fulham - Queens Park Rangers	6-0
+October 2nd 2011	Swansea - Stoke City	2-0
+October 2nd 2011	Tottenham - Arsenal	2-1
+October 1st 2011	Aston Villa - Wigan	2-0
+October 1st 2011	Blackburn - Manchester City	0-4
+October 1st 2011	Everton - Liverpool	0-2
+October 1st 2011	Manchester United - Norwich City	2-0
+October 1st 2011	Sunderland - West Brom	2-2
+October 1st 2011	Wolverhampton - Newcastle	1-2
+September 26th 2011	Norwich City - Sunderland	2-1
+September 25th 2011	Queens Park Rangers - Aston Villa	1-1
+September 24th 2011	Arsenal - Bolton	3-0
+September 24th 2011	Chelsea - Swansea	4-1
+September 24th 2011	Liverpool - Wolverhampton	2-1
+September 24th 2011	Manchester City - Everton	2-0
+September 24th 2011	Newcastle - Blackburn	3-1
+September 24th 2011	Stoke City - Manchester United	1-1
+September 24th 2011	West Brom - Fulham	0-0
+September 24th 2011	Wigan - Tottenham	1-2
+September 18th 2011	Fulham - Manchester City	2-2
+September 18th 2011	Manchester United - Chelsea	3-1
+September 18th 2011	Sunderland - Stoke City	4-0
+September 18th 2011	Tottenham - Liverpool	4-0
+September 17th 2011	Aston Villa - Newcastle	1-1
+September 17th 2011	Blackburn - Arsenal	4-3
+September 17th 2011	Bolton - Norwich City	1-2
+September 17th 2011	Everton - Wigan	3-1
+September 17th 2011	Swansea - West Brom	3-0
+September 17th 2011	Wolverhampton - Queens Park Rangers	0-3
+September 12th 2011	Queens Park Rangers - Newcastle	0-0
+September 11th 2011	Fulham - Blackburn	1-1
+September 11th 2011	Norwich City - West Brom	0-1
+September 10th 2011	Arsenal - Swansea	1-0
+September 10th 2011	Bolton - Manchester United	0-5
+September 10th 2011	Everton - Aston Villa	2-2
+September 10th 2011	Manchester City - Wigan	3-0
+September 10th 2011	Stoke City - Liverpool	1-0
+September 10th 2011	Sunderland - Chelsea	1-2
+September 10th 2011	Wolverhampton - Tottenham	0-2
+August 28th 2011	Manchester United - Arsenal	8-2
+August 28th 2011	Newcastle - Fulham	2-1
+August 28th 2011	Tottenham - Manchester City	1-5
+August 28th 2011	West Brom - Stoke City	0-1
+August 27th 2011	Swansea - Sunderland	0-0
+August 27th 2011	Aston Villa - Wolverhampton	0-0
+August 27th 2011	Blackburn - Everton	0-1
+August 27th 2011	Chelsea - Norwich City	3-1
+August 27th 2011	Liverpool - Bolton	3-1
+August 27th 2011	Wigan - Queens Park Rangers	2-0
+August 22nd 2011	Manchester United - Tottenham	3-0
+August 21st 2011	Wolverhampton - Fulham	2-0
+August 21st 2011	Norwich City - Stoke City	1-1
+August 21st 2011	Bolton - Manchester City	2-3
+August 20th 2011	Aston Villa - Blackburn	3-1
+August 20th 2011	Chelsea - West Brom	2-1
+August 20th 2011	Everton - Queens Park Rangers	0-1
+August 20th 2011	Sunderland - Newcastle	0-1
+August 20th 2011	Arsenal - Liverpool	0-2
+August 20th 2011	Swansea - Wigan	0-0
+August 15th 2011	Manchester City - Swansea	4-0
+August 14th 2011	West Brom - Manchester United	1-2
+August 14th 2011	Stoke City - Chelsea	0-0
+August 13th 2011	Blackburn - Wolverhampton	1-2
+August 13th 2011	Fulham - Aston Villa	0-0
+August 13th 2011	Liverpool - Sunderland	1-1
+August 13th 2011	Newcastle - Arsenal	0-0
+August 13th 2011	Queens Park Rangers - Bolton	0-4
+August 13th 2011	Wigan - Norwich City	1-1

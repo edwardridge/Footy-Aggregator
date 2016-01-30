@@ -1,0 +1,380 @@
+﻿May 19th 2001	Leeds - Leicester City	3-1
+May 19th 2001	Charlton Athletic - Liverpool	0-4
+May 19th 2001	Coventry City - Bradford City	0-0
+May 19th 2001	Derby County - Ipswich Town	1-1
+May 19th 2001	Everton - Sunderland	2-2
+May 19th 2001	Tottenham - Manchester United	3-1
+May 19th 2001	Manchester City - Chelsea	1-2
+May 19th 2001	Middlesbrough - West Ham	2-1
+May 19th 2001	Newcastle - Aston Villa	3-0
+May 19th 2001	Southampton - Arsenal	3-2
+May 15th 2001	Newcastle - Arsenal	0-0
+May 13th 2001	Southampton - Manchester United	2-1
+May 13th 2001	Leeds - Bradford City	6-1
+May 8th 2001	Liverpool - Chelsea	2-2
+May 7th 2001	Ipswich Town - Manchester City	2-1
+May 5th 2001	Liverpool - Newcastle	3-0
+May 5th 2001	Aston Villa - Coventry City	3-2
+May 5th 2001	Bradford City - Middlesbrough	1-1
+May 5th 2001	Chelsea - Everton	2-1
+May 5th 2001	Leicester City - Tottenham	4-2
+May 5th 2001	Manchester United - Derby County	0-1
+May 5th 2001	Sunderland - Charlton Athletic	3-2
+May 5th 2001	West Ham - Southampton	3-0
+May 5th 2001	Arsenal - Leeds	2-1
+May 1st 2001	Bradford City - Liverpool	0-2
+May 1st 2001	Newcastle - Southampton	1-1
+April 30th 2001	Charlton Athletic - Ipswich Town	2-1
+April 28th 2001	Coventry City - Liverpool	0-2
+April 28th 2001	Derby County - Arsenal	1-2
+April 28th 2001	Everton - Bradford City	2-1
+April 28th 2001	Leeds - Chelsea	2-0
+April 28th 2001	Manchester City - West Ham	1-0
+April 28th 2001	Middlesbrough - Manchester United	0-2
+April 28th 2001	Newcastle - Leicester City	1-0
+April 28th 2001	Southampton - Sunderland	0-1
+April 28th 2001	Tottenham - Aston Villa	0-0
+April 22nd 2001	Liverpool - Tottenham	3-1
+April 21st 2001	Arsenal - Everton	4-1
+April 21st 2001	Aston Villa - Southampton	0-0
+April 21st 2001	Bradford City - Derby County	2-0
+April 21st 2001	Chelsea - Charlton Athletic	0-1
+April 21st 2001	Ipswich Town - Coventry City	2-0
+April 21st 2001	Leicester City - Middlesbrough	0-3
+April 21st 2001	Manchester United - Manchester City	1-1
+April 21st 2001	Sunderland - Newcastle	1-1
+April 21st 2001	West Ham - Leeds	0-2
+April 17th 2001	Charlton Athletic - Aston Villa	3-3
+April 17th 2001	Tottenham - Chelsea	0-3
+April 16th 2001	Coventry City - Sunderland	1-0
+April 16th 2001	Newcastle - West Ham	2-1
+April 16th 2001	Middlesbrough - Ipswich Town	1-2
+April 16th 2001	Everton - Liverpool	2-3
+April 16th 2001	Derby County - Leicester City	2-0
+April 14th 2001	Chelsea - Southampton	1-0
+April 14th 2001	Arsenal - Middlesbrough	0-3
+April 14th 2001	Aston Villa - Everton	2-1
+April 14th 2001	Ipswich Town - Newcastle	1-0
+April 14th 2001	Leicester City - Manchester City	1-2
+April 14th 2001	Manchester United - Coventry City	4-2
+April 14th 2001	Sunderland - Tottenham	2-3
+April 14th 2001	West Ham - Derby County	3-1
+April 13th 2001	Liverpool - Leeds	1-2
+April 13th 2001	Bradford City - Charlton Athletic	2-0
+April 11th 2001	Manchester City - Arsenal	0-4
+April 10th 2001	Tottenham - Bradford City	2-1
+April 10th 2001	Manchester United - Charlton Athletic	2-1
+April 10th 2001	Ipswich Town - Liverpool	1-1
+April 9th 2001	Middlesbrough - Sunderland	0-0
+April 8th 2001	Everton - Manchester City	3-1
+April 7th 2001	Aston Villa - West Ham	2-2
+April 7th 2001	Derby County - Chelsea	0-4
+April 7th 2001	Leeds - Southampton	2-0
+April 7th 2001	Leicester City - Coventry City	1-3
+April 4th 2001	Aston Villa - Leicester City	2-1
+April 2nd 2001	Southampton - Ipswich Town	0-3
+April 1st 2001	Charlton Athletic - Leicester City	2-0
+March 31st 2001	Arsenal - Tottenham	2-0
+March 31st 2001	Bradford City - Newcastle	2-2
+March 31st 2001	Chelsea - Middlesbrough	2-1
+March 31st 2001	Coventry City - Derby County	2-0
+March 31st 2001	Liverpool - Manchester United	2-0
+March 31st 2001	Manchester City - Aston Villa	1-3
+March 31st 2001	Sunderland - Leeds	0-2
+March 31st 2001	West Ham - Everton	0-2
+March 18th 2001	Aston Villa - Arsenal	0-0
+March 18th 2001	Liverpool - Derby County	1-1
+March 17th 2001	Charlton Athletic - Leeds	1-2
+March 17th 2001	Chelsea - Sunderland	2-4
+March 17th 2001	Bradford City - Manchester City	2-2
+March 17th 2001	Manchester United - Leicester City	2-0
+March 17th 2001	Newcastle - Middlesbrough	1-2
+March 17th 2001	Tottenham - Coventry City	3-0
+March 17th 2001	West Ham - Ipswich Town	0-1
+March 17th 2001	Southampton - Everton	1-0
+March 10th 2001	Aston Villa - Ipswich Town	2-1
+March 7th 2001	West Ham - Chelsea	0-2
+March 5th 2001	Sunderland - Aston Villa	1-1
+March 4th 2001	Ipswich Town - Bradford City	3-1
+March 3rd 2001	Arsenal - West Ham	3-0
+March 3rd 2001	Coventry City - Chelsea	0-0
+March 3rd 2001	Derby County - Tottenham	2-1
+March 3rd 2001	Everton - Newcastle	1-1
+March 3rd 2001	Leeds - Manchester United	1-1
+March 3rd 2001	Leicester City - Liverpool	2-0
+March 3rd 2001	Manchester City - Southampton	0-1
+March 3rd 2001	Middlesbrough - Charlton Athletic	0-0
+February 25th 2001	Manchester United - Arsenal	6-1
+February 24th 2001	Bradford City - West Ham	1-2
+February 24th 2001	Coventry City - Charlton Athletic	2-2
+February 24th 2001	Derby County - Aston Villa	1-0
+February 24th 2001	Ipswich Town - Everton	2-0
+February 24th 2001	Leicester City - Sunderland	2-0
+February 24th 2001	Middlesbrough - Southampton	0-1
+February 24th 2001	Newcastle - Manchester City	0-1
+February 24th 2001	Tottenham - Leeds	1-2
+February 12th 2001	West Ham - Coventry City	1-1
+February 11th 2001	Charlton Athletic - Newcastle	2-0
+February 10th 2001	Arsenal - Ipswich Town	1-0
+February 10th 2001	Aston Villa - Middlesbrough	1-1
+February 10th 2001	Chelsea - Manchester United	1-1
+February 10th 2001	Everton - Leicester City	2-1
+February 10th 2001	Leeds - Derby County	0-0
+February 10th 2001	Manchester City - Tottenham	0-1
+February 10th 2001	Southampton - Bradford City	2-0
+February 10th 2001	Sunderland - Liverpool	1-1
+February 7th 2001	Everton - Leeds	2-2
+February 3rd 2001	Bradford City - Aston Villa	0-3
+February 3rd 2001	Coventry City - Arsenal	0-1
+February 3rd 2001	Derby County - Sunderland	1-0
+February 3rd 2001	Ipswich Town - Leeds	1-2
+February 3rd 2001	Leicester City - Chelsea	2-1
+February 3rd 2001	Liverpool - West Ham	3-0
+February 3rd 2001	Manchester United - Everton	1-0
+February 3rd 2001	Middlesbrough - Manchester City	1-1
+February 3rd 2001	Tottenham - Charlton Athletic	0-0
+January 31st 2001	Chelsea - Newcastle	3-1
+January 31st 2001	Everton - Middlesbrough	2-2
+January 31st 2001	Leeds - Coventry City	1-0
+January 31st 2001	Manchester City - Liverpool	1-1
+January 31st 2001	Southampton - Leicester City	1-0
+January 31st 2001	Sunderland - Manchester United	0-1
+January 31st 2001	West Ham - Tottenham	0-0
+January 30th 2001	Charlton Athletic - Derby County	2-1
+January 30th 2001	Arsenal - Bradford City	2-0
+January 24th 2001	Aston Villa - Leeds	1-2
+January 22nd 2001	Charlton Athletic - West Ham	1-1
+January 21st 2001	Sunderland - Bradford City	0-0
+January 20th 2001	Chelsea - Ipswich Town	4-1
+January 20th 2001	Coventry City - Everton	1-3
+January 20th 2001	Derby County - Manchester City	1-1
+January 20th 2001	Leeds - Newcastle	1-3
+January 20th 2001	Leicester City - Arsenal	0-0
+January 20th 2001	Liverpool - Middlesbrough	0-0
+January 20th 2001	Manchester United - Aston Villa	2-0
+January 20th 2001	Tottenham - Southampton	0-0
+January 14th 2001	Ipswich Town - Leicester City	2-0
+January 13th 2001	Arsenal - Chelsea	1-1
+January 13th 2001	Aston Villa - Liverpool	0-3
+January 13th 2001	Bradford City - Manchester United	0-3
+January 13th 2001	Everton - Tottenham	0-0
+January 13th 2001	Manchester City - Leeds	0-4
+January 13th 2001	Middlesbrough - Derby County	4-0
+January 13th 2001	Newcastle - Coventry City	3-1
+January 13th 2001	Southampton - Charlton Athletic	0-0
+January 13th 2001	West Ham - Sunderland	0-2
+January 2nd 2001	Tottenham - Newcastle	4-2
+January 1st 2001	Charlton Athletic - Arsenal	1-0
+January 1st 2001	Chelsea - Aston Villa	1-0
+January 1st 2001	Coventry City - Manchester City	1-1
+January 1st 2001	Derby County - Everton	1-0
+January 1st 2001	Leeds - Middlesbrough	1-1
+January 1st 2001	Leicester City - Bradford City	1-2
+January 1st 2001	Liverpool - Southampton	2-1
+January 1st 2001	Manchester United - West Ham	3-1
+January 1st 2001	Sunderland - Ipswich Town	4-1
+December 30th 2000	Arsenal - Sunderland	2-2
+December 30th 2000	Ipswich Town - Tottenham	3-0
+December 30th 2000	Manchester City - Charlton Athletic	1-4
+December 30th 2000	Middlesbrough - Coventry City	1-1
+December 30th 2000	Newcastle - Manchester United	1-1
+December 30th 2000	Southampton - Derby County	1-0
+December 27th 2000	Southampton - Tottenham	2-0
+December 26th 2000	Bradford City - Sunderland	1-4
+December 26th 2000	Everton - Coventry City	1-2
+December 26th 2000	Ipswich Town - Chelsea	2-2
+December 26th 2000	Manchester City - Derby County	0-0
+December 26th 2000	Middlesbrough - Liverpool	1-0
+December 26th 2000	Newcastle - Leeds	2-1
+December 26th 2000	West Ham - Charlton Athletic	5-0
+December 26th 2000	Aston Villa - Manchester United	0-1
+December 26th 2000	Arsenal - Leicester City	6-1
+December 23rd 2000	Charlton Athletic - Everton	1-0
+December 23rd 2000	Chelsea - Bradford City	3-0
+December 23rd 2000	Derby County - Newcastle	2-0
+December 23rd 2000	Leeds - Aston Villa	1-2
+December 23rd 2000	Leicester City - West Ham	2-1
+December 23rd 2000	Liverpool - Arsenal	4-0
+December 23rd 2000	Manchester United - Ipswich Town	2-0
+December 23rd 2000	Sunderland - Manchester City	1-0
+December 23rd 2000	Tottenham - Middlesbrough	0-0
+December 22nd 2000	Coventry City - Southampton	1-1
+December 18th 2000	Tottenham - Arsenal	1-1
+December 17th 2000	Manchester United - Liverpool	0-1
+December 16th 2000	Aston Villa - Manchester City	2-2
+December 16th 2000	Derby County - Coventry City	1-0
+December 16th 2000	Everton - West Ham	1-1
+December 16th 2000	Ipswich Town - Southampton	3-1
+December 16th 2000	Leeds - Sunderland	2-0
+December 16th 2000	Leicester City - Charlton Athletic	3-1
+December 16th 2000	Middlesbrough - Chelsea	1-0
+December 16th 2000	Newcastle - Bradford City	2-1
+December 10th 2000	Coventry City - Leicester City	1-0
+December 10th 2000	Liverpool - Ipswich Town	0-1
+December 9th 2000	Arsenal - Newcastle	5-0
+December 9th 2000	Bradford City - Tottenham	3-3
+December 9th 2000	Charlton Athletic - Manchester United	3-3
+December 9th 2000	Chelsea - Derby County	4-1
+December 9th 2000	Manchester City - Everton	5-0
+December 9th 2000	Southampton - Leeds	1-0
+December 9th 2000	Sunderland - Middlesbrough	1-0
+December 9th 2000	West Ham - Aston Villa	1-1
+December 4th 2000	Sunderland - Everton	2-0
+December 3rd 2000	Chelsea - Manchester City	2-1
+December 2nd 2000	Arsenal - Southampton	1-0
+December 2nd 2000	Aston Villa - Newcastle	1-1
+December 2nd 2000	Bradford City - Coventry City	2-1
+December 2nd 2000	Ipswich Town - Derby County	0-1
+December 2nd 2000	Leicester City - Leeds	3-1
+December 2nd 2000	Liverpool - Charlton Athletic	3-0
+December 2nd 2000	Manchester United - Tottenham	2-0
+December 2nd 2000	West Ham - Middlesbrough	1-0
+November 26th 2000	Leeds - Arsenal	1-0
+November 26th 2000	Newcastle - Liverpool	2-1
+November 25th 2000	Charlton Athletic - Sunderland	0-1
+November 25th 2000	Coventry City - Aston Villa	1-1
+November 25th 2000	Derby County - Manchester United	0-3
+November 25th 2000	Manchester City - Ipswich Town	2-3
+November 25th 2000	Everton - Chelsea	2-1
+November 25th 2000	Middlesbrough - Bradford City	2-2
+November 25th 2000	Southampton - West Ham	2-3
+November 25th 2000	Tottenham - Leicester City	3-0
+November 20th 2000	Coventry City - Ipswich Town	0-1
+November 19th 2000	Tottenham - Liverpool	2-1
+November 18th 2000	Charlton Athletic - Chelsea	2-0
+November 18th 2000	Derby County - Bradford City	2-0
+November 18th 2000	Everton - Arsenal	2-0
+November 18th 2000	Leeds - West Ham	0-1
+November 18th 2000	Manchester City - Manchester United	0-1
+November 18th 2000	Middlesbrough - Leicester City	0-3
+November 18th 2000	Newcastle - Sunderland	1-2
+November 18th 2000	Southampton - Aston Villa	2-0
+November 12th 2000	Chelsea - Leeds	1-1
+November 12th 2000	Liverpool - Coventry City	4-1
+November 11th 2000	Arsenal - Derby County	0-0
+November 11th 2000	Aston Villa - Tottenham	2-0
+November 11th 2000	Bradford City - Everton	0-1
+November 11th 2000	Ipswich Town - Charlton Athletic	2-0
+November 11th 2000	Leicester City - Newcastle	1-1
+November 11th 2000	Manchester United - Middlesbrough	2-1
+November 11th 2000	Sunderland - Southampton	2-2
+November 11th 2000	West Ham - Manchester City	4-1
+November 6th 2000	Derby County - West Ham	0-0
+November 5th 2000	Everton - Aston Villa	0-1
+November 4th 2000	Tottenham - Sunderland	2-1
+November 4th 2000	Charlton Athletic - Bradford City	2-0
+November 4th 2000	Coventry City - Manchester United	1-2
+November 4th 2000	Leeds - Liverpool	4-3
+November 4th 2000	Manchester City - Leicester City	0-1
+November 4th 2000	Middlesbrough - Arsenal	0-1
+November 4th 2000	Newcastle - Ipswich Town	2-1
+November 4th 2000	Southampton - Chelsea	3-2
+October 29th 2000	Liverpool - Everton	3-1
+October 29th 2000	Bradford City - Leeds	1-1
+October 28th 2000	Arsenal - Manchester City	5-0
+October 28th 2000	Aston Villa - Charlton Athletic	2-1
+October 28th 2000	Chelsea - Tottenham	3-0
+October 28th 2000	Ipswich Town - Middlesbrough	2-1
+October 28th 2000	Leicester City - Derby County	2-1
+October 28th 2000	Manchester United - Southampton	5-0
+October 28th 2000	Sunderland - Coventry City	1-0
+October 28th 2000	West Ham - Newcastle	1-0
+October 23rd 2000	Southampton - Manchester City	0-2
+October 22nd 2000	Aston Villa - Sunderland	0-0
+October 21st 2000	Bradford City - Ipswich Town	0-2
+October 21st 2000	Charlton Athletic - Middlesbrough	1-0
+October 21st 2000	Chelsea - Coventry City	6-1
+October 21st 2000	Liverpool - Leicester City	1-0
+October 21st 2000	Manchester United - Leeds	3-0
+October 21st 2000	Newcastle - Everton	0-1
+October 21st 2000	Tottenham - Derby County	3-1
+October 21st 2000	West Ham - Arsenal	1-2
+October 16th 2000	Middlesbrough - Newcastle	1-3
+October 15th 2000	Derby County - Liverpool	0-4
+October 14th 2000	Sunderland - Chelsea	1-0
+October 14th 2000	Arsenal - Aston Villa	1-0
+October 14th 2000	Coventry City - Tottenham	2-1
+October 14th 2000	Everton - Southampton	1-1
+October 14th 2000	Ipswich Town - West Ham	1-1
+October 14th 2000	Leeds - Charlton Athletic	3-1
+October 14th 2000	Leicester City - Manchester United	0-3
+October 14th 2000	Manchester City - Bradford City	2-0
+October 1st 2000	Sunderland - Leicester City	0-0
+October 1st 2000	Chelsea - Liverpool	3-0
+October 1st 2000	Arsenal - Manchester United	1-0
+September 30th 2000	Aston Villa - Derby County	4-1
+September 30th 2000	Charlton Athletic - Coventry City	2-2
+September 30th 2000	Leeds - Tottenham	4-3
+September 30th 2000	Manchester City - Newcastle	0-1
+September 30th 2000	Everton - Ipswich Town	0-3
+September 30th 2000	Southampton - Middlesbrough	1-3
+September 30th 2000	West Ham - Bradford City	1-1
+September 24th 2000	Leicester City - Everton	1-1
+September 23rd 2000	Bradford City - Southampton	0-1
+September 23rd 2000	Coventry City - West Ham	0-3
+September 23rd 2000	Derby County - Leeds	1-1
+September 23rd 2000	Ipswich Town - Arsenal	1-1
+September 23rd 2000	Liverpool - Sunderland	1-1
+September 23rd 2000	Manchester United - Chelsea	3-3
+September 23rd 2000	Middlesbrough - Aston Villa	1-1
+September 23rd 2000	Newcastle - Charlton Athletic	0-1
+September 23rd 2000	Tottenham - Manchester City	0-0
+September 17th 2000	Chelsea - Leicester City	0-2
+September 17th 2000	Manchester City - Middlesbrough	1-1
+September 17th 2000	West Ham - Liverpool	1-1
+September 16th 2000	Arsenal - Coventry City	2-1
+September 16th 2000	Aston Villa - Bradford City	2-0
+September 16th 2000	Charlton Athletic - Tottenham	1-0
+September 16th 2000	Everton - Manchester United	1-3
+September 16th 2000	Leeds - Ipswich Town	1-2
+September 16th 2000	Southampton - Newcastle	2-0
+September 16th 2000	Sunderland - Derby County	2-1
+September 11th 2000	Tottenham - West Ham	1-0
+September 10th 2000	Derby County - Charlton Athletic	2-2
+September 9th 2000	Bradford City - Arsenal	1-1
+September 9th 2000	Coventry City - Leeds	0-0
+September 9th 2000	Ipswich Town - Aston Villa	1-2
+September 9th 2000	Leicester City - Southampton	1-0
+September 9th 2000	Liverpool - Manchester City	3-2
+September 9th 2000	Manchester United - Sunderland	3-0
+September 9th 2000	Middlesbrough - Everton	1-2
+September 9th 2000	Newcastle - Chelsea	0-0
+September 6th 2000	Charlton Athletic - Southampton	1-1
+September 6th 2000	Chelsea - Arsenal	2-2
+September 6th 2000	Coventry City - Newcastle	0-2
+September 6th 2000	Derby County - Middlesbrough	3-3
+September 6th 2000	Leicester City - Ipswich Town	2-1
+September 6th 2000	Liverpool - Aston Villa	3-1
+September 5th 2000	Leeds - Manchester City	1-2
+September 5th 2000	Manchester United - Bradford City	6-0
+September 5th 2000	Sunderland - West Ham	1-1
+September 5th 2000	Tottenham - Everton	3-2
+August 27th 2000	Aston Villa - Chelsea	1-1
+August 26th 2000	Manchester City - Coventry City	1-2
+August 26th 2000	Arsenal - Charlton Athletic	5-3
+August 26th 2000	Bradford City - Leicester City	0-0
+August 26th 2000	Everton - Derby County	2-2
+August 26th 2000	Ipswich Town - Sunderland	1-0
+August 26th 2000	Middlesbrough - Leeds	1-2
+August 26th 2000	Newcastle - Tottenham	2-0
+August 26th 2000	Southampton - Liverpool	3-3
+August 26th 2000	West Ham - Manchester United	2-2
+August 23rd 2000	West Ham - Leicester City	0-1
+August 23rd 2000	Everton - Charlton Athletic	3-0
+August 23rd 2000	Manchester City - Sunderland	4-2
+August 23rd 2000	Newcastle - Derby County	3-2
+August 23rd 2000	Southampton - Coventry City	1-2
+August 22nd 2000	Middlesbrough - Tottenham	1-1
+August 22nd 2000	Ipswich Town - Manchester United	1-1
+August 22nd 2000	Bradford City - Chelsea	2-0
+August 21st 2000	Arsenal - Liverpool	2-0
+August 20th 2000	Manchester United - Newcastle	2-0
+August 19th 2000	Tottenham - Ipswich Town	3-1
+August 19th 2000	Charlton Athletic - Manchester City	4-0
+August 19th 2000	Liverpool - Bradford City	1-0
+August 19th 2000	Leicester City - Aston Villa	0-0
+August 19th 2000	Leeds - Everton	2-0
+August 19th 2000	Derby County - Southampton	2-2
+August 19th 2000	Coventry City - Middlesbrough	1-3
+August 19th 2000	Chelsea - West Ham	4-2
+August 19th 2000	Sunderland - Arsenal	1-0
