@@ -6,110 +6,129 @@ open RSSSFParser
 open Aggregator
 open System
 
+let getResultsForLocation (results: ResultForTeam list) (location: Location) = 
+    let resultsForLocation = results |> List.where(fun x -> x.Location = location)
+    resultsForLocation
+
 [<Test>]
 let ``With Arsenal as home team line, home team name is Arsenal``() = 
     let lineToParse = "Arsenal 0-0 Everton"
     let parser = new RSSSFParser()
-    let parsedLine = parser.parseLine lineToParse
-    Assert.AreEqual("Arsenal", parsedLine.HomeTeamResult.TeamName)
+    let parsedLine = parser.parseLine lineToParse 
+    let homeTeam = getResultsForLocation parsedLine Location.Home |> Seq.head
+    Assert.AreEqual("Arsenal", homeTeam.TeamName)
 
 [<Test>]
 let ``With Leceister as home team line, home team name is Leceister``() = 
     let lineToParse = "Leceister 0-0 Everton"
     let parser = new RSSSFParser()
     let parsedLine = parser.parseLine lineToParse
-    Assert.AreEqual("Leceister", parsedLine.HomeTeamResult.TeamName)
+    let homeTeam = getResultsForLocation parsedLine Location.Home |> Seq.head
+    Assert.AreEqual("Leceister", homeTeam.TeamName)
 
 [<Test>]
 let ``With Arsenal as home team with 1 goal, home team goals scored is 1``() = 
     let lineToParse = "Arsenal 1-0 Everton"
     let parser = new RSSSFParser()
     let parsedLine = parser.parseLine lineToParse
-    Assert.AreEqual(1, parsedLine.HomeTeamResult.GoalsScored)
+    let team = getResultsForLocation parsedLine Location.Home |> Seq.head
+    Assert.AreEqual(1, team.GoalsScored)
 
 [<Test>]
 let ``With West Ham as home team, home team name is West Ham``() = 
     let lineToParse = "West Ham 2-0 Everton"
     let parser = new RSSSFParser()
     let parsedLine = parser.parseLine lineToParse
-    Assert.AreEqual("West Ham", parsedLine.HomeTeamResult.TeamName)
+    let team = getResultsForLocation parsedLine Location.Home |> Seq.head
+    Assert.AreEqual("West Ham", team.TeamName)
 
 [<Test>]
 let ``With West Ham as home team with 2 goals, home team goals scored is 2``() = 
     let lineToParse = "West Ham 2-0 Everton"
     let parser = new RSSSFParser()
     let parsedLine = parser.parseLine lineToParse
-    Assert.AreEqual(2, parsedLine.HomeTeamResult.GoalsScored)
+    let team = getResultsForLocation parsedLine Location.Home |> Seq.head
+    Assert.AreEqual(2, team.GoalsScored)
 
 [<Test>]
 let ``With Tottenham as away team, away team name is Tottenham``() = 
     let lineToParse = "Arsenal 0-0 Tottenham"
     let parser = new RSSSFParser()
     let parsedLine = parser.parseLine lineToParse
-    Assert.AreEqual("Tottenham", parsedLine.AwayTeamResult.TeamName)
+    let team = getResultsForLocation parsedLine Location.Away |> Seq.head
+    Assert.AreEqual("Tottenham", team.TeamName)
 
 [<Test>]
 let ``With Tottenham as away team and score 3 goals, 3 goals are scored``() = 
     let lineToParse = "Arsenal 0-3 Tottenham"
     let parser = new RSSSFParser()
     let parsedLine = parser.parseLine lineToParse
-    Assert.AreEqual(3, parsedLine.AwayTeamResult.GoalsScored)
+    let team = getResultsForLocation parsedLine Location.Away |> Seq.head
+    Assert.AreEqual(3, team.GoalsScored)
 
 [<Test>]
 let ``With home team scoring 2 goals and away team scoring 1 goal, home team wins``() = 
     let lineToParse = "Arsenal 2-1 Tottenham"
     let parser = new RSSSFParser()
     let parsedLine = parser.parseLine lineToParse
-    Assert.AreEqual(MatchResult.Win, parsedLine.HomeTeamResult.MatchResult)
+    let team = getResultsForLocation parsedLine Location.Home |> Seq.head
+    Assert.AreEqual(MatchResult.Win, team.MatchResult)
 
 [<Test>]
 let ``With home team scoring 1 goal and away team scoring 2 goals, away team wins``() = 
     let lineToParse = "Arsenal 1-2 Tottenham"
     let parser = new RSSSFParser()
     let parsedLine = parser.parseLine lineToParse
-    Assert.AreEqual(MatchResult.Win, parsedLine.AwayTeamResult.MatchResult)
+    let team = getResultsForLocation parsedLine Location.Away |> Seq.head
+    Assert.AreEqual(MatchResult.Win, team.MatchResult)
 
 [<Test>]
 let ``With home team scoring 4 goals and away team scoring 3 goals, home goals conceded is 3``() = 
     let lineToParse = "Arsenal 4-3 Crystal Palace"
     let parser = new RSSSFParser()
     let parsedLine = parser.parseLine lineToParse
-    Assert.AreEqual(3, parsedLine.HomeTeamResult.GoalsConceded)
+    let team = getResultsForLocation parsedLine Location.Home |> Seq.head
+    Assert.AreEqual(3, team.GoalsConceded)
 
 [<Test>]
 let ``With home team scoring 5 goals and away team scoring 1 goals, away goals conceded is 5``() = 
     let lineToParse = "Man City 5-1 Man U"
     let parser = new RSSSFParser()
     let parsedLine = parser.parseLine lineToParse
-    Assert.AreEqual(5, parsedLine.AwayTeamResult.GoalsConceded)
+    let team = getResultsForLocation parsedLine Location.Away |> Seq.head
+    Assert.AreEqual(5, team.GoalsConceded)
 
 [<Test>]
 let ``With home team scoring 8 goals and away team scoring 5 goals, home goal difference is 3``() = 
     let lineToParse = "Man City 8-5 Man U"
     let parser = new RSSSFParser()
     let parsedLine = parser.parseLine lineToParse
-    Assert.AreEqual(3, parsedLine.HomeTeamResult.GoalDifference)
+    let team = getResultsForLocation parsedLine Location.Home |> Seq.head
+    Assert.AreEqual(3, team.GoalDifference)
 
 [<Test>]
 let ``With home team scoring 1 goals and away team scoring 3 goals, home goal difference is -2``() = 
     let lineToParse = "Man City 1-3 Man U"
     let parser = new RSSSFParser()
     let parsedLine = parser.parseLine lineToParse
-    Assert.AreEqual(-2, parsedLine.HomeTeamResult.GoalDifference)
+    let team = getResultsForLocation parsedLine Location.Home |> Seq.head
+    Assert.AreEqual(-2, team.GoalDifference)
 
 [<Test>]
 let ``With home team scoring 2 goals and away team scoring 5 goals, away goal difference is 3``() = 
     let lineToParse = "Spurs 2-5 Arsenal"
     let parser = new RSSSFParser()
     let parsedLine = parser.parseLine lineToParse
-    Assert.AreEqual(3, parsedLine.AwayTeamResult.GoalDifference)
+    let team = getResultsForLocation parsedLine Location.Away |> Seq.head
+    Assert.AreEqual(3, team.GoalDifference)
 
 [<Test>]
 let ``Feed test - With home team scoring 1 goals and away team scoring 3 goals, home goal difference is -2``() = 
     let lineToParse = "Burnley       1-3 West Ham "
     let parser = new RSSSFParser()
     let parsedLine = parser.parseLine lineToParse
-    Assert.AreEqual(-2, parsedLine.HomeTeamResult.GoalDifference)
+    let team = getResultsForLocation parsedLine Location.Home |> Seq.head
+    Assert.AreEqual(-2, team.GoalDifference)
 
 
 [<Test>]
@@ -120,13 +139,15 @@ let ``Multiple line test``() =
     let parserImp = new RSSSFParser()
     let parser = parserImp :> IParser
     let parsedLines = parser.parse linesToParse
-    let firstResult = parsedLines |> List.head
-    let secondResult = parsedLines |> List.tail |> List.head
+    let firstResultHome = getResultsForLocation parsedLines Location.Home |> Seq.head
+    let firstResultAway  =getResultsForLocation parsedLines Location.Away |> Seq.head
+    let secondResultHome = getResultsForLocation parsedLines Location.Home |> Seq.item 1
+    let secondResultAway  =getResultsForLocation parsedLines Location.Away |> Seq.item 1
 
-    Assert.AreEqual(3, firstResult.HomeTeamResult.GoalDifference)
-    Assert.AreEqual(MatchResult.Win, firstResult.HomeTeamResult.MatchResult)
-    Assert.AreEqual(MatchResult.Lose, secondResult.HomeTeamResult.MatchResult)
-    Assert.AreEqual(1, secondResult.AwayTeamResult.GoalsConceded )
+    Assert.AreEqual(3, firstResultHome.GoalDifference)
+    Assert.AreEqual(MatchResult.Win, firstResultHome.MatchResult)
+    Assert.AreEqual(MatchResult.Lose, secondResultHome.MatchResult)
+    Assert.AreEqual(1, secondResultAway.GoalsConceded )
 
 [<Test>]
 let ``Multiple line test - new line ignored``() = 
@@ -138,7 +159,7 @@ let ``Multiple line test - new line ignored``() =
     let parser = parserImp :> IParser
     let parsedLines = parser.parse linesToParse 
     
-    Assert.AreEqual(2, parsedLines.Length )
+    Assert.AreEqual(4, parsedLines.Length )
 
 [<Test>]
 let ``Multiple line test - lines that contain Round are ignored``() = 
@@ -150,7 +171,7 @@ let ``Multiple line test - lines that contain Round are ignored``() =
     let parser = parserImp :> IParser
     let parsedLines = parser.parse linesToParse 
     
-    Assert.AreEqual(2, parsedLines.Length )
+    Assert.AreEqual(4, parsedLines.Length )
 
 [<Test>]
 let ``Multiple line test - lines that contain [ are ignored``() = 
@@ -162,7 +183,7 @@ let ``Multiple line test - lines that contain [ are ignored``() =
     let parser = parserImp :> IParser
     let parsedLines = parser.parse linesToParse 
     
-    Assert.AreEqual(2, parsedLines.Length )
+    Assert.AreEqual(4, parsedLines.Length )
 
 [<Test>]
 let ``Multiple line test - lines that contain [ set the date``() = 
@@ -202,7 +223,7 @@ let ``Multiple line test - multiple dates``() =
 
     let parsedLines = parser.parse linesToParse 
     let firstRow =  List.item 0 parsedLines
-    let secondRow =  List.item 1 parsedLines
+    let secondRow =  List.item 2 parsedLines
     Assert.AreEqual(firstRow.Date.Month, 9)
     Assert.AreEqual(firstRow.Date.Day, 3)
     Assert.AreEqual(secondRow.Date.Month, 9)
@@ -222,7 +243,7 @@ let ``Multiple line test - new year is handled correctly``() =
 
     let parsedLines = parser.parse linesToParse
     let firstRow =  List.item 0 parsedLines
-    let secondRow =  List.item 1 parsedLines
+    let secondRow =  List.item 2 parsedLines
     Assert.AreEqual(firstRow.Date, new DateTime(year, 12 ,31))
     Assert.AreEqual(secondRow.Date, new DateTime(year + 1, 1 ,1))
 
@@ -255,7 +276,7 @@ let ``Multiple line test - year can be changed``() =
 
     let parsedLines = parser.parse linesToParse
     let firstRow =  List.item 0 parsedLines
-    let secondRow =  List.item 1 parsedLines
+    let secondRow =  List.item 2 parsedLines
     Assert.AreEqual(firstRow.Date, new DateTime(year, 12 ,1))
     Assert.AreEqual(secondRow.Date, new DateTime(year + 1, 12 ,3))
 

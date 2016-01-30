@@ -6,6 +6,10 @@ open NUnit.Framework
 open System
 open ResultDbParser
 
+let getResultsForLocation (results: ResultForTeam list) (location: Location) = 
+    let resultsForLocation = results |> List.where(fun x -> x.Location = location)
+    resultsForLocation
+
 [<Test>]
 let ``Sets date correctly with th``() = 
     let lineToParse = "May 19th 2001	Leeds - Leicester City	3-1"
@@ -52,7 +56,8 @@ let ``Sets home team name correctly``() =
     let parserImp = new ResultDbParser()
     let parser = parserImp :> IParser
     let parsedLine = parser.parse lineToParse
-    Assert.AreEqual("Arsenal", parsedLine.Head.HomeTeamResult.TeamName)
+    let team = getResultsForLocation parsedLine Location.Home |> Seq.head
+    Assert.AreEqual("Arsenal", team.TeamName)
 
 [<Test>]
 let ``Sets away team name correctly``() = 
@@ -60,7 +65,8 @@ let ``Sets away team name correctly``() =
     let parserImp = new ResultDbParser()
     let parser = parserImp :> IParser
     let parsedLine = parser.parse lineToParse
-    Assert.AreEqual("West Ham", parsedLine.Head.AwayTeamResult.TeamName)
+    let team = getResultsForLocation parsedLine Location.Away |> Seq.head
+    Assert.AreEqual("West Ham", team.TeamName)
 
 [<Test>]
 let ``Sets away team name correctly second test``() = 
@@ -68,7 +74,8 @@ let ``Sets away team name correctly second test``() =
     let parserImp = new ResultDbParser()
     let parser = parserImp :> IParser
     let parsedLine = parser.parse lineToParse
-    Assert.AreEqual("Man C", parsedLine.Head.AwayTeamResult.TeamName)
+    let team = getResultsForLocation parsedLine Location.Away |> Seq.head
+    Assert.AreEqual("Man C", team.TeamName)
 
 [<Test>]
 let ``Sets home goals scored correctly``() = 
@@ -76,7 +83,8 @@ let ``Sets home goals scored correctly``() =
     let parserImp = new ResultDbParser()
     let parser = parserImp :> IParser
     let parsedLine = parser.parse lineToParse
-    Assert.AreEqual(3, parsedLine.Head.HomeTeamResult.GoalsScored)
+    let team = getResultsForLocation parsedLine Location.Home |> Seq.head
+    Assert.AreEqual(3, team.GoalsScored)
 
 [<Test>]
 let ``Sets away goals scored correctly``() = 
@@ -84,7 +92,8 @@ let ``Sets away goals scored correctly``() =
     let parserImp = new ResultDbParser()
     let parser = parserImp :> IParser
     let parsedLine = parser.parse lineToParse
-    Assert.AreEqual(2, parsedLine.Head.AwayTeamResult.GoalsScored)
+    let team = getResultsForLocation parsedLine Location.Away |> Seq.head
+    Assert.AreEqual(2, team.GoalsScored)
 
 [<Test>]
 let ``Sets home goals conceded correctly``() = 
@@ -92,7 +101,8 @@ let ``Sets home goals conceded correctly``() =
     let parserImp = new ResultDbParser()
     let parser = parserImp :> IParser
     let parsedLine = parser.parse lineToParse
-    Assert.AreEqual(2, parsedLine.Head.HomeTeamResult.GoalsConceded)
+    let team = getResultsForLocation parsedLine Location.Home |> Seq.head
+    Assert.AreEqual(2, team.GoalsConceded)
 
 [<Test>]
 let ``Sets away goals conceded correctly``() = 
@@ -100,7 +110,8 @@ let ``Sets away goals conceded correctly``() =
     let parserImp = new ResultDbParser()
     let parser = parserImp :> IParser
     let parsedLine = parser.parse lineToParse
-    Assert.AreEqual(5, parsedLine.Head.AwayTeamResult.GoalsConceded)
+    let team = getResultsForLocation parsedLine Location.Away |> Seq.head
+    Assert.AreEqual(5, team.GoalsConceded)
 
 [<Test>]
 let ``Sets home win correctly``() = 
@@ -108,7 +119,8 @@ let ``Sets home win correctly``() =
     let parserImp = new ResultDbParser()
     let parser = parserImp :> IParser
     let parsedLine = parser.parse lineToParse
-    Assert.AreEqual(MatchResult.Win, parsedLine.Head.HomeTeamResult.MatchResult)
+    let team = getResultsForLocation parsedLine Location.Home |> Seq.head
+    Assert.AreEqual(MatchResult.Win, team.MatchResult)
 
 [<Test>]
 let ``Sets home draw correctly``() = 
@@ -116,7 +128,8 @@ let ``Sets home draw correctly``() =
     let parserImp = new ResultDbParser()
     let parser = parserImp :> IParser
     let parsedLine = parser.parse lineToParse
-    Assert.AreEqual(MatchResult.Draw, parsedLine.Head.HomeTeamResult.MatchResult)
+    let team = getResultsForLocation parsedLine Location.Home |> Seq.head
+    Assert.AreEqual(MatchResult.Draw, team.MatchResult)
 
 [<Test>]
 let ``Sets home lose correctly``() = 
@@ -124,7 +137,8 @@ let ``Sets home lose correctly``() =
     let parserImp = new ResultDbParser()
     let parser = parserImp :> IParser
     let parsedLine = parser.parse lineToParse
-    Assert.AreEqual(MatchResult.Lose, parsedLine.Head.HomeTeamResult.MatchResult)
+    let team = getResultsForLocation parsedLine Location.Home |> Seq.head
+    Assert.AreEqual(MatchResult.Lose, team.MatchResult)
 
 [<Test>]
 let ``Sets away win correctly``() = 
@@ -132,7 +146,8 @@ let ``Sets away win correctly``() =
     let parserImp = new ResultDbParser()
     let parser = parserImp :> IParser
     let parsedLine = parser.parse lineToParse
-    Assert.AreEqual(MatchResult.Win, parsedLine.Head.AwayTeamResult.MatchResult)
+    let team = getResultsForLocation parsedLine Location.Away |> Seq.head
+    Assert.AreEqual(MatchResult.Win, team.MatchResult)
 
 [<Test>]
 let ``Sets away draw correctly``() = 
@@ -140,7 +155,8 @@ let ``Sets away draw correctly``() =
     let parserImp = new ResultDbParser()
     let parser = parserImp :> IParser
     let parsedLine = parser.parse lineToParse
-    Assert.AreEqual(MatchResult.Draw, parsedLine.Head.AwayTeamResult.MatchResult)
+    let team = getResultsForLocation parsedLine Location.Away |> Seq.head
+    Assert.AreEqual(MatchResult.Draw,  team.MatchResult)
 
 [<Test>]
 let ``Sets away lose correctly``() = 
@@ -148,7 +164,8 @@ let ``Sets away lose correctly``() =
     let parserImp = new ResultDbParser()
     let parser = parserImp :> IParser
     let parsedLine = parser.parse lineToParse
-    Assert.AreEqual(MatchResult.Lose, parsedLine.Head.AwayTeamResult.MatchResult)
+    let team = getResultsForLocation parsedLine Location.Away |> Seq.head
+    Assert.AreEqual(MatchResult.Lose, team.MatchResult)
 
 [<Test>]
 let ``Sets multiple lines correctly``() = 
@@ -158,12 +175,15 @@ May 1st 2002	Derby - Spurs	3-2"
     let parser = parserImp :> IParser
     let parsedLines = parser.parse linesToParse
 
-    let firstResult = parsedLines.Head
-    let secondResult = Seq.item 1 parsedLines
-    Assert.AreEqual(MatchResult.Lose, firstResult.AwayTeamResult.MatchResult)
-    Assert.AreEqual(MatchResult.Win, secondResult.HomeTeamResult.MatchResult)
-    Assert.AreEqual(3, secondResult.HomeTeamResult.GoalsScored)
-    Assert.AreEqual(1, firstResult.AwayTeamResult.GoalsScored)
+    let firstResultHome = getResultsForLocation parsedLines Location.Home |> Seq.head
+    let firstResultAway = getResultsForLocation parsedLines Location.Away |> Seq.head
+    let secondResultHome = getResultsForLocation parsedLines Location.Home |> Seq.item 1
+    let secondResultAway = getResultsForLocation parsedLines Location.Away |> Seq.item 1
+
+    Assert.AreEqual(MatchResult.Lose, firstResultAway.MatchResult)
+    Assert.AreEqual(MatchResult.Win, secondResultHome.MatchResult)
+    Assert.AreEqual(3, secondResultHome.GoalsScored)
+    Assert.AreEqual(1, firstResultAway.GoalsScored)
 
 [<Test>]
 let ``Full season test``() = 
@@ -552,6 +572,8 @@ August 16th 2003	Portsmouth - Aston Villa	2-1"
     let parsedLines = parser.parse linesToParse
 
     let firstResult = parsedLines.Head
-    let secondResult = Seq.item 1 parsedLines
-    Assert.AreEqual(MatchResult.Win, firstResult.AwayTeamResult.MatchResult)
+    let team = getResultsForLocation parsedLines Location.Away |> Seq.head
+
+//    let secondResult = Seq.item 1 parsedLines
+    Assert.AreEqual(MatchResult.Win, team.MatchResult)
     

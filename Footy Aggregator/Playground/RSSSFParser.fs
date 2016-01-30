@@ -30,28 +30,15 @@ type RSSSFParser() =
     let parseLineInternal lineToParse currentDate =
          let homeSide = parseHomeSide lineToParse
          let awaySide = parseAwaySide lineToParse
-         let homeResult = if homeSide.Goals > awaySide.Goals then MatchResult.Win else if homeSide.Goals = awaySide.Goals then MatchResult.Draw else MatchResult.Lose
-         let awayResult = match homeResult with 
-                          | MatchResult.Win -> MatchResult.Lose
-                          | MatchResult.Draw -> MatchResult.Draw
-                          | MatchResult.Lose -> MatchResult.Win
-     
-         let homePoints = if homeSide.Goals > awaySide.Goals then 3 else if homeSide.Goals = awaySide.Goals then 1 else 0
-         let awayPoints = match homePoints with 
-                          | 3 -> 0 
-                          | 1 -> 1 
-                          | 0 -> 3
-                          | _-> 999
 
-         new Result(new ResultForTeam(homeSide.TeamName, homeSide.Goals, awaySide.Goals), new ResultForTeam(awaySide.TeamName, awaySide.Goals, homeSide.Goals), currentDate)
+         [new ResultForTeam(homeSide.TeamName, homeSide.Goals, awaySide.Goals, currentDate, Location.Home); new ResultForTeam(awaySide.TeamName, awaySide.Goals, homeSide.Goals, currentDate, Location.Away)]
 
     let parseDateLine (lineToParse: string) startingYear = 
         let startOfDate = lineToParse.IndexOf('[')
         let endOfDate = lineToParse.IndexOf(']')
         let dateString = lineToParse.Substring(startOfDate + 1 , endOfDate - startOfDate - 1)
         let dateBeforeChange = DateTime.Parse(dateString + " " + startingYear.ToString())
-        let date = if dateBeforeChange.Month < 6 then dateBeforeChange.AddYears(1) else dateBeforeChange
-        date
+        if dateBeforeChange.Month < 6 then dateBeforeChange.AddYears(1) else dateBeforeChange
 
     let parseYear (lineToParse:string) = 
         let matchYear = Regex.Match(lineToParse, @"\d\d\d\d")
@@ -70,17 +57,15 @@ type RSSSFParser() =
             let mutable currDate = new DateTime()
 
             let teams = []
-            let mutable results = List.empty<Result>
+            let mutable results = List.empty<ResultForTeam>
             cleanLines 
             |> Array.iter 
-                (fun x -> 
-                    if(x.Contains("[")) then
-                        currDate <- parseDateLine x currYear
-                        else if x.Contains("Year") then
-                            currYear <- parseYear x
-                            else if x.Contains("Round") = false then
-                                let thingToAppend = parseLineInternal x currDate
-                                let newResult = List.append results [thingToAppend]
-                                results <- newResult
+                (fun line -> 
+                    if(line.Contains("[")) then
+                        currDate <- parseDateLine line currYear
+                        else if line.Contains("Year") then
+                            currYear <- parseYear line
+                            else if line.Contains("Round") = false then
+                                results <- List.append results (parseLineInternal line currDate)
                 )
             results

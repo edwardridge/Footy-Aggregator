@@ -5,12 +5,15 @@ type MatchResult =
     | Draw
     | Lose
 
+type Location =
+    | Home
+    | Away
+
 type Team(teamName: string, allNames: string []) = 
     member this.TeamName = teamName
-    //member private this.AllNames = allNames
     member internal this.GetAllNames = fun _ -> allNames
 
-type ResultForTeam(teamName: string, goalsScored: int, goalsConceded: int) =
+type ResultForTeam(teamName: string, goalsScored: int, goalsConceded: int, date: System.DateTime, location: Location) =
     member this.TeamName = teamName
     member this.MatchResult = if(goalsScored > goalsConceded) then MatchResult.Win
                                 else if(goalsScored = goalsConceded) then MatchResult.Draw
@@ -18,71 +21,54 @@ type ResultForTeam(teamName: string, goalsScored: int, goalsConceded: int) =
     member this.GoalsScored = goalsScored
     member this.GoalsConceded = goalsConceded
     member this.GoalDifference = goalsScored - goalsConceded
-//    member this.Date = date
-    
-type Result(homeTeamResult: ResultForTeam, awayTeamResult: ResultForTeam, date: System.DateTime) = 
-    member this.HomeTeamResult = homeTeamResult
-    member this.AwayTeamResult = awayTeamResult
     member this.Date = date
+    member this.Location = location
 
 type AggregateResult(pointsForWin, team: Team, resultsIn: ResultForTeam list) = 
     member this.Team = team
-    //member this.Results = resultsIn
     member this.Games = resultsIn.Length
     member this.Points = resultsIn 
                         |> List.sumBy(
-                            fun(i : ResultForTeam) -> 
-                                match i.MatchResult with
+                            fun(result : ResultForTeam) -> 
+                                match result.MatchResult with
                                 | MatchResult.Win -> pointsForWin
                                 | MatchResult.Draw -> 1
                                 | MatchResult.Lose -> 0
                          )
-    member this.Wins = resultsIn |> List.sumBy(fun(i : ResultForTeam) ->  if i.MatchResult = MatchResult.Win then 1 else 0)
-    member this.Loses = resultsIn |> List.sumBy(fun(i : ResultForTeam) ->  if i.MatchResult = MatchResult.Lose then 1 else 0)
-    member this.Draws = resultsIn |> List.sumBy(fun(i : ResultForTeam) ->  if i.MatchResult = MatchResult.Draw then 1 else 0)
-    member this.GoalsScored = resultsIn |> List.sumBy(fun(i : ResultForTeam) ->  i.GoalsScored)
-    member this.GoalsConceded = resultsIn |> List.sumBy(fun(i : ResultForTeam) ->  i.GoalsConceded)
+    member this.GoalsScored = resultsIn |> List.sumBy(fun(result : ResultForTeam) ->  result.GoalsScored)
+    member this.GoalsConceded = resultsIn |> List.sumBy(fun(result : ResultForTeam) ->  result.GoalsConceded)
     member this.GoalDifference = this.GoalsScored - this.GoalsConceded
 
-let timeAndRunFunction functionToRun textToPrint =
-    printfn "Started %s" textToPrint
-    let stopWatch = System.Diagnostics.Stopwatch.StartNew()
-    let returnRes = functionToRun()
-    stopWatch.Stop()
-    printfn "Ended %s - took %d milliseconds" textToPrint stopWatch.ElapsedMilliseconds
-    returnRes
-
-let createLeagueTable sortFunction (teams: Team list) (results: Result list) startDate endDate =
+let createLeagueTable sortFunction (teams: Team list) (results: ResultForTeam list) startDate endDate =
     let findTeamFromTeamName (teams:Team list) (teamName:string) = 
-        let teamExistsInList = teams |> List.exists(fun y -> y.GetAllNames() |> Array.contains teamName)
+        let teamExistsInList = teams |> List.exists(fun team -> team.GetAllNames() |> Array.contains teamName)
         match teamExistsInList with
-        | true -> teams |> List.find(fun x -> x.GetAllNames() |> Array.contains teamName)
+        | true -> teams |> List.find(fun team -> team.GetAllNames() |> Array.contains teamName)
         | false -> new Team(teamName, [teamName] |> Array.ofList)
 
-    let filterHomeTeamResults (results:Result list) (team:Team) = 
+    let filterHomeTeamResults (results:ResultForTeam list) (team:Team) = 
         results 
-        |> List.filter(fun(result : Result) -> 
-            team.GetAllNames() |> Array.contains result.HomeTeamResult.TeamName &&
+        |> List.filter(fun(result : ResultForTeam) -> 
+            team.GetAllNames() |> Array.contains result.TeamName &&
+            result.Location = Location.Home &&
             result.Date >= startDate && result.Date <= endDate)
-        |> List.map(fun(result) -> result.HomeTeamResult)
 
-    let filterAwayTeamResults (results:Result list) (team:Team) = 
+    let filterAwayTeamResults (results:ResultForTeam list) (team:Team) = 
         results 
-        |> List.filter(fun(result : Result) -> 
-            team.GetAllNames() |> Array.contains result.AwayTeamResult.TeamName &&
+        |> List.filter(fun(result : ResultForTeam) -> 
+            team.GetAllNames() |> Array.contains result.TeamName &&
+            result.Location = Location.Away &&
             result.Date >= startDate && result.Date <= endDate)
-        |> List.map(fun(result) -> result.AwayTeamResult)
      
-    let filterResults (team:Team) (results:Result list) = filterHomeTeamResults results team |> List.append(filterAwayTeamResults results team)
+    let filterResults (team:Team) (results:ResultForTeam list) = filterHomeTeamResults results team |> List.append(filterAwayTeamResults results team)
 
-    let createAggregateResultsForTeam pointsForWin (team: Team) (results: Result list) = 
+    let createAggregateResultsForTeam pointsForWin (team: Team) (results: ResultForTeam list) = 
         new AggregateResult(pointsForWin, team, filterResults team results)
 
-    let createAggregrateResultsForAllTeams pointsForWin (results: Result list) startDate = 
-        let awayTeams = results |> List.map(fun x -> x.AwayTeamResult.TeamName)
-        let homeTeams = results |> List.map(fun x -> x.HomeTeamResult.TeamName)
-        let emptyStringArray = [""] |> Array.ofList
-        let teams = awayTeams |> List.append homeTeams |> List.distinct |>  List.map(fun x-> findTeamFromTeamName teams x ) |> List.distinct
+    let createAggregrateResultsForAllTeams pointsForWin (results: ResultForTeam list) startDate = 
+        let awayTeams = results |> List.map(fun result -> result.TeamName)
+        let homeTeams = results |> List.map(fun result -> result.TeamName)
+        let teams = awayTeams |> List.append homeTeams |> List.distinct |>  List.map(fun team -> findTeamFromTeamName teams team ) |> List.distinct
         teams |> List.map(fun(team) -> createAggregateResultsForTeam pointsForWin team results)
 
     let createAggregrateResultsForAllTeamsWithThreePointsForWin = 
@@ -90,7 +76,7 @@ let createLeagueTable sortFunction (teams: Team list) (results: Result list) sta
 
     results 
     |> createAggregrateResultsForAllTeamsWithThreePointsForWin results
-    |> List.where(fun xx -> xx.Games > 0)
+    |> List.where(fun aggregateResult -> aggregateResult.Games > 0)
     |> List.sortWith sortFunction
 
 let sortByPointsThenGoalDifference = fun(x: AggregateResult) (y: AggregateResult) -> 

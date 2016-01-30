@@ -3,4 +3,4 @@
 open Aggregator
 
 type IParser =
-    abstract member parse: string -> Result list
+    abstract member parse: string -> ResultForTeam list
