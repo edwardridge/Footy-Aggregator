@@ -9,6 +9,11 @@ type Location =
     | Home
     | Away
 
+type Filter = 
+    | ByDate
+    | HomeOnly
+    | AwayOnly
+
 type Team(teamName: string, allNames: string []) = 
     member this.TeamName = teamName
     member internal this.GetAllNames = fun _ -> allNames
@@ -39,53 +44,52 @@ type AggregateResult(pointsForWin, team: Team, resultsIn: ResultForTeam list) =
     member this.GoalsScored = resultsIn |> List.sumBy(fun(result : ResultForTeam) ->  result.GoalsScored)
     member this.GoalsConceded = resultsIn |> List.sumBy(fun(result : ResultForTeam) ->  result.GoalsConceded)
     member this.GoalDifference = this.GoalsScored - this.GoalsConceded
-   
 
-let createLeagueTable sortFunction (teams: Team list) (results: ResultForTeam list) startDate endDate =
+type AggregationParameters(sortFunction: AggregateResult -> AggregateResult -> int, filters: seq<ResultForTeam list -> ResultForTeam list>) =
+    member this.SortFunction = sortFunction
+    member this.Filters = filters
+   
+let private filterByLocation  (location:Location)  (results:ResultForTeam list) =
+    results
+    |> List.where(fun result -> result.Location = location)
+
+let private filterByDates startDate endDate (results:ResultForTeam list) =
+    results
+    |> List.where(fun result -> result.Date >= startDate && result.Date <= endDate)
+
+let private filterOnlyByDates startDate endDate = [filterByDates startDate endDate]
+let private filterByDatesTeamAndHomeSide startDate endDate = [filterByLocation Location.Home; filterByDates startDate endDate]
+let private filterByDatesTeamAndAwaySide startDate endDate = [filterByLocation Location.Away; filterByDates startDate endDate]
+
+let createLeagueTable sortFunction (filters: seq<ResultForTeam list -> ResultForTeam list>) (teams: Team list) (results: ResultForTeam list) =
     let findTeamFromTeamName (teams:Team list) (teamName:string) = 
         let teamExistsInList = teams |> List.exists(fun team -> team.GetAllNames() |> Array.contains teamName)
         match teamExistsInList with
         | true -> teams |> List.find(fun team -> team.GetAllNames() |> Array.contains teamName)
         | false -> new Team(teamName, [teamName] |> Array.ofList)
 
-    let filterByLocation  (location:Location)  (results:ResultForTeam list) =
-        results
-        |> List.where(fun result -> result.Location = location)
-
-    let filterByDates startDate endDate (results:ResultForTeam list) =
-        results
-        |> List.where(fun result -> result.Date >= startDate && result.Date <= endDate)
-
     let filterByTeam (team:Team) (results:ResultForTeam list) =
         results 
         |> List.where(fun(result : ResultForTeam) -> 
             team.GetAllNames() |> Array.contains result.TeamName)
-
-    let filterHomeTeamResults (results:ResultForTeam list) = 
-        results 
-        |> filterByLocation Location.Home
-
-    let filterAwayTeamResults (results:ResultForTeam list) = 
-        results 
-        |> filterByLocation Location.Away
 
     let applyMultipleFilters (results:ResultForTeam list) filters =
         let mutable resultsWithFilters = results 
         filters |> Seq.iter(fun filter -> resultsWithFilters <- filter resultsWithFilters)
         resultsWithFilters  
      
-    let filterResults (team:Team) (results:ResultForTeam list) = 
-        let filters = [filterByTeam team; filterByDates startDate endDate]
+    let filterResults (team:Team) (results:ResultForTeam list) filters = 
         applyMultipleFilters results filters
+        |> filterByTeam team
 
-    let createAggregateResultsForTeam pointsForWin (team: Team) (results: ResultForTeam list) = 
-        new AggregateResult(pointsForWin, team, filterResults team results)
+    let createAggregateResultsForTeam pointsForWin (team: Team) (results: ResultForTeam list) filters= 
+        new AggregateResult(pointsForWin, team, filterResults team results filters)
 
-    let createAggregrateResultsForAllTeams pointsForWin (results: ResultForTeam list) startDate = 
+    let createAggregrateResultsForAllTeams pointsForWin filters (results: ResultForTeam list)  = 
         let awayTeams = results |> List.map(fun result -> result.TeamName)
         let homeTeams = results |> List.map(fun result -> result.TeamName)
         let teams = awayTeams |> List.append homeTeams |> List.distinct |>  List.map(fun team -> findTeamFromTeamName teams team ) |> List.distinct
-        teams |> List.map(fun(team) -> createAggregateResultsForTeam pointsForWin team results)
+        teams |> List.map(fun(team) -> createAggregateResultsForTeam pointsForWin team results filters)
 
     let createAggregrateResultsForAllTeamsWithThreePointsForWin = 
         createAggregrateResultsForAllTeams 3
@@ -93,7 +97,7 @@ let createLeagueTable sortFunction (teams: Team list) (results: ResultForTeam li
     let mutable order = 1
     let returnVal = 
         results 
-        |> createAggregrateResultsForAllTeamsWithThreePointsForWin results
+        |> createAggregrateResultsForAllTeamsWithThreePointsForWin filters
         |> List.where(fun aggregateResult -> aggregateResult.Games > 0)
         |> List.sortWith sortFunction
 
@@ -111,6 +115,8 @@ let sortByPointsThenGoalDifference = fun(x: AggregateResult) (y: AggregateResult
 let sortByName (x: AggregateResult) (y: AggregateResult) =
             if(x.Team.TeamName > y.Team.TeamName) then -1 else 1
 
-let createLeagueTableWithDefaultSorting teams results startDate endDate = createLeagueTable sortByPointsThenGoalDifference teams results startDate endDate
+let createLeagueTableWithDefaultSorting teams results startDate endDate = createLeagueTable sortByPointsThenGoalDifference (filterOnlyByDates startDate endDate) teams results
+let createLeagueTableWithDefaultSortingAndFilterHome teams results startDate endDate = createLeagueTable sortByPointsThenGoalDifference (filterByDatesTeamAndHomeSide startDate endDate) teams results 
 
-let createLeagueTableWithNameSorting teams results startDate endDate = createLeagueTable sortByName teams results startDate endDate
+
+let createLeagueTableWithNameSorting teams results startDate endDate = createLeagueTable sortByName teams results

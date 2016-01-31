@@ -63,6 +63,7 @@
     <Content Include="2013.txt" />
     <Content Include="2014.txt" />
     <Compile Include="Aggregator.fs" />
+    <Compile Include="AggregatorTests.fs" />
     <Compile Include="TeamParser.fs" />
     <Compile Include="TeamParserTests.fs" />
     <Compile Include="IParser.fs" />
