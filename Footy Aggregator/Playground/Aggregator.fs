@@ -68,11 +68,15 @@ let createLeagueTable sortFunction (teams: Team list) (results: ResultForTeam li
     let filterAwayTeamResults (results:ResultForTeam list) = 
         results 
         |> filterByLocation Location.Away
+
+    let applyMultipleFilters (results:ResultForTeam list) filters =
+        let mutable resultsWithFilters = results 
+        filters |> Seq.iter(fun filter -> resultsWithFilters <- filter resultsWithFilters)
+        resultsWithFilters  
      
     let filterResults (team:Team) (results:ResultForTeam list) = 
-        results 
-        |> filterByTeam team
-        |> filterByDates startDate endDate
+        let filters = [filterByTeam team; filterByDates startDate endDate]
+        applyMultipleFilters results filters
 
     let createAggregateResultsForTeam pointsForWin (team: Team) (results: ResultForTeam list) = 
         new AggregateResult(pointsForWin, team, filterResults team results)
