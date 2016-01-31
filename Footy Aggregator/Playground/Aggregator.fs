@@ -24,7 +24,8 @@ type ResultForTeam(teamName: string, goalsScored: int, goalsConceded: int, date:
     member this.Date = date
     member this.Location = location
 
-type AggregateResult(pointsForWin, team: Team, resultsIn: ResultForTeam list) = 
+type AggregateResult(pointsForWin, team: Team, resultsIn: ResultForTeam list) =
+    member val Position = 0 with get, set 
     member this.Team = team
     member this.Games = resultsIn.Length
     member this.Points = resultsIn 
@@ -38,6 +39,7 @@ type AggregateResult(pointsForWin, team: Team, resultsIn: ResultForTeam list) =
     member this.GoalsScored = resultsIn |> List.sumBy(fun(result : ResultForTeam) ->  result.GoalsScored)
     member this.GoalsConceded = resultsIn |> List.sumBy(fun(result : ResultForTeam) ->  result.GoalsConceded)
     member this.GoalDifference = this.GoalsScored - this.GoalsConceded
+   
 
 let createLeagueTable sortFunction (teams: Team list) (results: ResultForTeam list) startDate endDate =
     let findTeamFromTeamName (teams:Team list) (teamName:string) = 
@@ -46,21 +48,31 @@ let createLeagueTable sortFunction (teams: Team list) (results: ResultForTeam li
         | true -> teams |> List.find(fun team -> team.GetAllNames() |> Array.contains teamName)
         | false -> new Team(teamName, [teamName] |> Array.ofList)
 
-    let filterHomeTeamResults (results:ResultForTeam list) (team:Team) = 
-        results 
-        |> List.filter(fun(result : ResultForTeam) -> 
-            team.GetAllNames() |> Array.contains result.TeamName &&
-            result.Location = Location.Home &&
-            result.Date >= startDate && result.Date <= endDate)
+    let filterByLocation  (location:Location)  (results:ResultForTeam list) =
+        results
+        |> List.where(fun result -> result.Location = location)
 
-    let filterAwayTeamResults (results:ResultForTeam list) (team:Team) = 
+    let filterByDates startDate endDate (results:ResultForTeam list) =
+        results
+        |> List.where(fun result -> result.Date >= startDate && result.Date <= endDate)
+
+    let filterByTeam (team:Team) (results:ResultForTeam list) =
         results 
-        |> List.filter(fun(result : ResultForTeam) -> 
-            team.GetAllNames() |> Array.contains result.TeamName &&
-            result.Location = Location.Away &&
-            result.Date >= startDate && result.Date <= endDate)
+        |> List.where(fun(result : ResultForTeam) -> 
+            team.GetAllNames() |> Array.contains result.TeamName)
+
+    let filterHomeTeamResults (results:ResultForTeam list) = 
+        results 
+        |> filterByLocation Location.Home
+
+    let filterAwayTeamResults (results:ResultForTeam list) = 
+        results 
+        |> filterByLocation Location.Away
      
-    let filterResults (team:Team) (results:ResultForTeam list) = filterHomeTeamResults results team |> List.append(filterAwayTeamResults results team)
+    let filterResults (team:Team) (results:ResultForTeam list) = 
+        results 
+        |> filterByTeam team
+        |> filterByDates startDate endDate
 
     let createAggregateResultsForTeam pointsForWin (team: Team) (results: ResultForTeam list) = 
         new AggregateResult(pointsForWin, team, filterResults team results)
@@ -74,10 +86,18 @@ let createLeagueTable sortFunction (teams: Team list) (results: ResultForTeam li
     let createAggregrateResultsForAllTeamsWithThreePointsForWin = 
         createAggregrateResultsForAllTeams 3
 
-    results 
-    |> createAggregrateResultsForAllTeamsWithThreePointsForWin results
-    |> List.where(fun aggregateResult -> aggregateResult.Games > 0)
-    |> List.sortWith sortFunction
+    let mutable order = 1
+    let returnVal = 
+        results 
+        |> createAggregrateResultsForAllTeamsWithThreePointsForWin results
+        |> List.where(fun aggregateResult -> aggregateResult.Games > 0)
+        |> List.sortWith sortFunction
+
+    returnVal |> List.iter(fun agg -> 
+        agg.Position <- order
+        order <- order + 1
+    )
+    returnVal
 
 let sortByPointsThenGoalDifference = fun(x: AggregateResult) (y: AggregateResult) -> 
             if(x.Points > y.Points) then -1 else

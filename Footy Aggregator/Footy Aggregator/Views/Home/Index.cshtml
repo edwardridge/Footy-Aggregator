@@ -1,10 +1,80 @@
+<link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.10/css/jquery.dataTables.css">
+<link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+
+@section scripts {
+   <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+   <script type="text/javascript" charset="utf8" src="//cdn.datatables.net/1.10.10/js/jquery.dataTables.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#table').dataTable({
+                "ajax": {
+                    "url": "/api/league"
+                    ,
+                    "dataSrc": ""
+                },
+                "columns": [
+                   { "data": "position" },
+                   { "data": "team.teamName" },
+                   { "data": "games" },
+                   { "data": "points" },
+                   { "data": "goalsScored" },
+                   { "data": "goalsConceded" },
+                   { "data": "goalDifference" }
+                ],
+                "order": [[0, 'asc']],
+                "paging": false,
+                "searching": false
+            });
+
+            $("#startDate").datepicker();
+            $("#endDate").datepicker();
+
+            $('#pressMe').click(function () {
+                var getDateToSendFromDate = function (date, dateToUseIfNull) {
+                    if (!date) return dateToUseIfNull;
+                    return date;
+                };
+                
+
+                var startDateToSend = getDateToSendFromDate($("#startDate").datepicker("getDate"), new Date(1900, 1, 1)).toISOString().substring(0,10);
+                var endDateToSend = getDateToSendFromDate($("#endDate").datepicker("getDate"), new Date(2100, 1, 1)).toISOString().substring(0, 10);
+
+                var url = "/api/league/" + startDateToSend + "/" + endDateToSend;
+                $.ajax({
+                    url: url
+                })
+                .done(function (data) {
+                    $('#table').dataTable().fnClearTable();
+                    $('#table').dataTable().fnAddData(data);
+                });
+            });
+        });
+
+    </script> 
+}
+
+
 <div class="jumbotron">
-    <h1>F# + ASP.NET</h1>
-    <p class="lead">Pure F# ASP.NET web apps are a combination of several excellent technologies that allow you to build complex web applications in less time. To make your experience
-            even more appealing, we recommend following the instructions on
-            <a href="http://bloggemdano.blogspot.com/2013/11/adding-new-items-to-pure-f-aspnet.html">this blog post</a> and
-            installing the <a href="http://visualstudiogallery.msdn.microsoft.com/f1dae7fe-1ecc-4f1b-86b5-32a2970d012a?SRC=Home">F# Web Item Templates</a>.
-   </p>
-    <p>To learn more about ASP.NET MVC or Web API visit the <a href="http://go.microsoft.com/fwlink/?LinkId=301870">ASP.NET site</a>.</p>
-    <p>To learn more about web programming in F# visit <a href="http://fsharp.org/webstacks/">fsharp.org</a></p>
+    <h1>Premier League Aggregator</h1>
+    <span>Start date: <input type="text" id="startDate"></span>
+    <span>End date: <input type="text" id="endDate"></span>
+    <button id="pressMe">Go!</button>
+
+    <table id="table">
+        <thead>
+            <tr>
+                <th>Position</th>
+                <th>Team</th>
+                <th>Games</th>
+                <th>Points</th>
+                <th>Goals Scored</th>
+                <th>Goals Conceded</th>
+                <th>Goal Difference</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+            </tr>
+        </tbody>
+    </table>
 </div>
