@@ -11,6 +11,6 @@ let ``Filtes home results correctly``() =
     let secondResult = new ResultForTeam("Arsenal", 2, 2, date, Location.Away)
     let thirdResult = new ResultForTeam("Arsenal", 2, 1, date, Location.Home)
     let results = [firstResult; secondResult; thirdResult]
-    let league = createLeagueTableWithDefaultSortingAndFilterHome [] results date date
+    let league = createLeagueTableWithDefaultSorting [] results date date [FilterType.HomeOnly]
     let firstLeaguePlace = league |> List.head
     Assert.AreEqual(6, firstLeaguePlace.Points)

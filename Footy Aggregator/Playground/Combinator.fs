@@ -40,5 +40,5 @@ type Combinator() =
 
     let teams = teamParser.parseLines (readFileAndPutBackNewlines (baseDir + teamFile)) |> List.ofArray
     let combinedResults = List.append rsssfParsedLines rdbParsedLines
-    member this.createLeagueWithTeamsAndSort startDate endDate =
-        createLeagueTableWithDefaultSorting teams combinedResults startDate endDate
+    member this.createLeagueWithTeamsAndSort startDate endDate filterTypes =
+        createLeagueTableWithDefaultSorting teams combinedResults startDate endDate filterTypes

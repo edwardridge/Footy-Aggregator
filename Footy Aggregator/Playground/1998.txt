@@ -1,1 +1,485 @@
-﻿
+﻿Sunday 16 May 1999
+16:00	Arsenal	1 - 0	Aston Villa	Highbury
+16:00	Charlton	0 - 1	Sheff Wed	The Valley
+16:00	Chelsea	2 - 1	Derby	Stamford Bridge
+16:00	Coventry	2 - 2	Leeds	Highfield Road
+16:00	Liverpool	3 - 0	Wimbledon	Anfield
+16:00	Man Utd	2 - 1	Spurs	Old Trafford
+16:00	Newcastle	1 - 1	Blackburn	St. James' Park
+16:00	Nott'm Forest	1 - 0	Leicester	City Ground
+16:00	Southampton	2 - 0	Everton	The Dell
+16:00	West Ham	4 - 0	Middlesbrough	Boleyn Ground
+Wednesday 12 May 1999
+20:00	Blackburn	0 - 0	Man Utd	Ewood Park
+Tuesday 11 May 1999
+20:00	Leeds	1 - 0	Arsenal	Elland Road
+Monday 10 May 1999
+20:00	Spurs	2 - 2	Chelsea	White Hart Lane
+Sunday 9 May 1999
+16:00	Middlesbrough	0 - 1	Man Utd	Riverside Stadium
+Saturday 8 May 1999
+15:00	Aston Villa	3 - 4	Charlton	Villa Park
+15:00	Blackburn	1 - 2	Nott'm Forest	Ewood Park
+15:00	Derby	0 - 0	Coventry	iPro Stadium
+15:00	Everton	6 - 0	West Ham	Goodison Park
+15:00	Leicester	2 - 0	Newcastle	Filbert Street
+15:00	Sheff Wed	1 - 0	Liverpool	Hillsborough
+15:00	Wimbledon	0 - 2	Southampton	Plough Lane
+Wednesday 5 May 1999
+20:00	Liverpool	2 - 2	Man Utd	Anfield
+20:00	Spurs	1 - 3	Arsenal	White Hart Lane
+19:45	Chelsea	1 - 0	Leeds	Stamford Bridge
+19:45	Leicester	1 - 2	Derby	Filbert Street
+Sunday 2 May 1999
+16:00	Arsenal	1 - 0	Derby	Highbury
+Saturday 1 May 1999
+15:00	Charlton	0 - 0	Blackburn	The Valley
+15:00	Chelsea	3 - 1	Everton	Stamford Bridge
+15:00	Coventry	2 - 1	Wimbledon	Highfield Road
+15:00	Liverpool	3 - 2	Spurs	Anfield
+15:00	Man Utd	2 - 1	Aston Villa	Old Trafford
+15:00	Newcastle	1 - 1	Middlesbrough	St. James' Park
+15:00	Nott'm Forest	2 - 0	Sheff Wed	City Ground
+15:00	Southampton	2 - 1	Leicester	The Dell
+15:00	West Ham	1 - 5	Leeds	Boleyn Ground
+Sunday 25 April 1999
+16:00	Sheff Wed	0 - 0	Chelsea	Hillsborough
+11:30	Leeds	1 - 1	Man Utd	Elland Road
+Saturday 24 April 1999
+15:00	Aston Villa	2 - 0	Nott'm Forest	Villa Park
+15:00	Blackburn	1 - 3	Liverpool	Ewood Park
+15:00	Derby	0 - 0	Southampton	iPro Stadium
+15:00	Everton	4 - 1	Charlton	Goodison Park
+15:00	Leicester	1 - 0	Coventry	Filbert Street
+15:00	Middlesbrough	1 - 6	Arsenal	Riverside Stadium
+15:00	Spurs	1 - 2	West Ham	White Hart Lane
+15:00	Wimbledon	1 - 1	Newcastle	Plough Lane
+Wednesday 21 April 1999
+19:45	Liverpool	0 - 1	Leicester	Anfield
+19:45	Sheff Wed	1 - 1	Newcastle	Hillsborough
+Tuesday 20 April 1999
+19:45	Charlton	1 - 4	Spurs	The Valley
+Monday 19 April 1999
+20:00	Arsenal	5 - 1	Wimbledon	Highbury
+Sunday 18 April 1999
+14:00	Chelsea	2 - 2	Leicester	Stamford Bridge
+Saturday 17 April 1999
+15:00	Charlton	1 - 1	Leeds	The Valley
+15:00	Coventry	1 - 2	Middlesbrough	Highfield Road
+15:00	Liverpool	0 - 1	Aston Villa	Anfield
+15:00	Man Utd	3 - 0	Sheff Wed	Old Trafford
+15:00	Newcastle	1 - 3	Everton	St. James' Park
+15:00	Nott'm Forest	0 - 1	Spurs	City Ground
+15:00	Southampton	3 - 3	Blackburn	The Dell
+15:00	West Ham	5 - 1	Derby	Boleyn Ground
+Wednesday 14 April 1999
+19:45	Middlesbrough	0 - 0	Chelsea	Riverside Stadium
+Monday 12 April 1999
+20:00	Leeds	0 - 0	Liverpool	Elland Road
+Sunday 11 April 1999
+15:00	Everton	2 - 0	Coventry	Goodison Park
+15:00	Wimbledon	1 - 2	Chelsea	Plough Lane
+Saturday 10 April 1999
+15:00	Aston Villa	3 - 0	Southampton	Villa Park
+15:00	Derby	1 - 0	Nott'm Forest	iPro Stadium
+15:00	Leicester	0 - 0	West Ham	Filbert Street
+15:00	Middlesbrough	2 - 0	Charlton	Riverside Stadium
+Tuesday 6 April 1999
+19:45	Arsenal	1 - 0	Blackburn	Highbury
+ 	AET	 
+19:45	Leicester	2 - 2	Aston Villa	Filbert Street
+Monday 5 April 1999
+19:45	Newcastle	1 - 1	Spurs	St. James' Park
+15:00	Coventry	1 - 0	Southampton	Highfield Road
+15:00	Everton	1 - 2	Sheff Wed	Goodison Park
+15:00	Middlesbrough	3 - 1	Wimbledon	Riverside Stadium
+15:00	Nott'm Forest	2 - 2	Liverpool	City Ground
+15:00	West Ham	0 - 1	Charlton	Boleyn Ground
+Saturday 3 April 1999
+15:00	Blackburn	0 - 0	Middlesbrough	Ewood Park
+15:00	Charlton	0 - 1	Chelsea	The Valley
+15:00	Derby	3 - 4	Newcastle	iPro Stadium
+15:00	Leeds	3 - 1	Nott'm Forest	Elland Road
+15:00	Liverpool	3 - 2	Everton	Anfield
+15:00	Sheff Wed	1 - 2	Coventry	Hillsborough
+15:00	Southampton	0 - 0	Arsenal	The Dell
+15:00	Spurs	0 - 2	Leicester	White Hart Lane
+15:00	Wimbledon	1 - 1	Man Utd	Plough Lane
+Friday 2 April 1999
+19:45	Aston Villa	0 - 0	West Ham	Villa Park
+Sunday 21 March 1999
+15:00	Man Utd	3 - 1	Everton	Old Trafford
+11:30	Aston Villa	0 - 3	Chelsea	Villa Park
+Saturday 20 March 1999
+15:00	Arsenal	2 - 0	Coventry	Highbury
+15:00	Blackburn	3 - 1	Wimbledon	Ewood Park
+15:00	Leeds	4 - 1	Derby	Elland Road
+15:00	Nott'm Forest	1 - 2	Middlesbrough	City Ground
+15:00	Southampton	1 - 0	Sheff Wed	The Dell
+15:00	West Ham	2 - 0	Newcastle	Boleyn Ground
+Sunday 14 March 1999
+16:00	Middlesbrough	3 - 0	Southampton	Riverside Stadium
+Saturday 13 March 1999
+15:00	Chelsea	0 - 1	West Ham	Stamford Bridge
+15:00	Coventry	1 - 1	Blackburn	Highfield Road
+15:00	Derby	3 - 2	Liverpool	iPro Stadium
+15:00	Everton	0 - 2	Arsenal	Goodison Park
+15:00	Leicester	1 - 1	Charlton	Filbert Street
+15:00	Newcastle	1 - 2	Man Utd	St. James' Park
+15:00	Sheff Wed	0 - 2	Leeds	Hillsborough
+15:00	Spurs	1 - 0	Aston Villa	White Hart Lane
+15:00	Wimbledon	1 - 3	Nott'm Forest	Plough Lane
+Wednesday 10 March 1999
+19:45	Blackburn	1 - 2	Everton	Ewood Park
+19:45	Derby	2 - 1	Aston Villa	iPro Stadium
+19:45	Leeds	2 - 0	Spurs	Elland Road
+19:45	Nott'm Forest	1 - 2	Newcastle	City Ground
+Tuesday 9 March 1999
+19:45	Arsenal	3 - 0	Sheff Wed	Highbury
+Saturday 6 March 1999
+15:00	Coventry	2 - 1	Charlton	Highfield Road
+15:00	Southampton	1 - 0	West Ham	The Dell
+15:00	Wimbledon	0 - 1	Leicester	Plough Lane
+Wednesday 3 March 1999
+19:45	Sheff Wed	1 - 2	Wimbledon	Hillsborough
+Tuesday 2 March 1999
+19:45	Spurs	3 - 0	Southampton	White Hart Lane
+Monday 1 March 1999
+20:00	Leicester	1 - 2	Leeds	Filbert Street
+Sunday 28 February 1999
+16:00	Newcastle	1 - 1	Arsenal	St. James' Park
+Saturday 27 February 1999
+15:00	Aston Villa	1 - 4	Coventry	Villa Park
+15:00	Charlton	0 - 0	Nott'm Forest	The Valley
+15:00	Chelsea	2 - 1	Liverpool	Stamford Bridge
+15:00	Everton	1 - 1	Wimbledon	Goodison Park
+15:00	Man Utd	2 - 1	Southampton	Old Trafford
+15:00	Sheff Wed	3 - 1	Middlesbrough	Hillsborough
+15:00	Spurs	1 - 1	Derby	White Hart Lane
+15:00	West Ham	2 - 0	Blackburn	Boleyn Ground
+Sunday 21 February 1999
+16:00	Wimbledon	0 - 0	Aston Villa	Plough Lane
+Saturday 20 February 1999
+15:00	Arsenal	5 - 0	Leicester	Highbury
+15:00	Blackburn	1 - 4	Sheff Wed	Ewood Park
+15:00	Coventry	0 - 1	Man Utd	Highfield Road
+15:00	Derby	0 - 2	Charlton	iPro Stadium
+15:00	Leeds	1 - 0	Everton	Elland Road
+15:00	Liverpool	2 - 2	West Ham	Anfield
+15:00	Middlesbrough	0 - 0	Spurs	Riverside Stadium
+15:00	Nott'm Forest	1 - 3	Chelsea	City Ground
+15:00	Southampton	2 - 1	Newcastle	The Dell
+Wednesday 17 February 1999
+20:00	Everton	5 - 0	Middlesbrough	Goodison Park
+20:00	Man Utd	1 - 1	Arsenal	Old Trafford
+19:45	Aston Villa	1 - 2	Leeds	Villa Park
+19:45	Chelsea	1 - 1	Blackburn	Stamford Bridge
+19:45	Newcastle	4 - 1	Coventry	St. James' Park
+Saturday 13 February 1999
+15:00	Charlton	1 - 0	Liverpool	The Valley
+15:00	West Ham	2 - 1	Nott'm Forest	Boleyn Ground
+Monday 8 February 1999
+20:00	Charlton	2 - 0	Wimbledon	The Valley
+Sunday 7 February 1999
+16:00	Derby	2 - 1	Everton	iPro Stadium
+Saturday 6 February 1999
+15:00	Aston Villa	1 - 3	Blackburn	Villa Park
+15:00	Chelsea	1 - 0	Southampton	Stamford Bridge
+15:00	Leeds	0 - 1	Newcastle	Elland Road
+15:00	Leicester	0 - 2	Sheff Wed	Filbert Street
+15:00	Liverpool	3 - 1	Middlesbrough	Anfield
+15:00	Nott'm Forest	1 - 8	Man Utd	City Ground
+15:00	Spurs	0 - 0	Coventry	White Hart Lane
+15:00	West Ham	0 - 4	Arsenal	Boleyn Ground
+Wednesday 3 February 1999
+20:00	Man Utd	1 - 0	Derby	Old Trafford
+Sunday 31 January 1999
+16:00	Arsenal	1 - 0	Chelsea	Highbury
+16:00	Charlton	0 - 1	Man Utd	The Valley
+Saturday 30 January 1999
+15:00	Blackburn	1 - 1	Spurs	Ewood Park
+15:00	Coventry	2 - 1	Liverpool	Highfield Road
+15:00	Everton	0 - 1	Nott'm Forest	Goodison Park
+15:00	Middlesbrough	0 - 0	Leicester	Riverside Stadium
+15:00	Newcastle	2 - 1	Aston Villa	St. James' Park
+15:00	Sheff Wed	0 - 1	Derby	Hillsborough
+15:00	Southampton	3 - 0	Leeds	The Dell
+15:00	Wimbledon	0 - 0	West Ham	Plough Lane
+Monday 18 January 1999
+20:00	Aston Villa	3 - 0	Everton	Villa Park
+Sunday 17 January 1999
+16:00	Charlton	2 - 2	Newcastle	The Valley
+Saturday 16 January 1999
+15:00	Chelsea	2 - 1	Coventry	Stamford Bridge
+15:00	Derby	1 - 0	Blackburn	iPro Stadium
+15:00	Leeds	2 - 0	Middlesbrough	Elland Road
+15:00	Leicester	2 - 6	Man Utd	Filbert Street
+15:00	Liverpool	7 - 1	Southampton	Anfield
+15:00	Nott'm Forest	0 - 1	Arsenal	City Ground
+15:00	Spurs	0 - 0	Wimbledon	White Hart Lane
+15:00	West Ham	0 - 4	Sheff Wed	Boleyn Ground
+Sunday 10 January 1999
+16:00	Man Utd	4 - 1	West Ham	Old Trafford
+Saturday 9 January 1999
+15:00	Arsenal	0 - 0	Liverpool	Highbury
+15:00	Blackburn	1 - 0	Leeds	Ewood Park
+15:00	Coventry	4 - 0	Nott'm Forest	Highfield Road
+15:00	Everton	0 - 0	Leicester	Goodison Park
+15:00	Middlesbrough	0 - 0	Aston Villa	Riverside Stadium
+15:00	Newcastle	0 - 1	Chelsea	St. James' Park
+15:00	Sheff Wed	0 - 0	Spurs	Hillsborough
+15:00	Southampton	3 - 1	Charlton	The Dell
+15:00	Wimbledon	2 - 1	Derby	Plough Lane
+Tuesday 29 December 1998
+20:00	Chelsea	0 - 0	Man Utd	Stamford Bridge
+19:45	Leeds	2 - 2	Wimbledon	Elland Road
+Monday 28 December 1998
+19:45	Leicester	1 - 1	Blackburn	Filbert Street
+15:00	Aston Villa	2 - 1	Sheff Wed	Villa Park
+15:00	Charlton	0 - 1	Arsenal	The Valley
+15:00	Derby	2 - 1	Middlesbrough	iPro Stadium
+15:00	Liverpool	4 - 2	Newcastle	Anfield
+15:00	Nott'm Forest	1 - 1	Southampton	City Ground
+15:00	Spurs	4 - 1	Everton	White Hart Lane
+15:00	West Ham	2 - 0	Coventry	Boleyn Ground
+Saturday 26 December 1998
+18:00	Blackburn	2 - 1	Aston Villa	Ewood Park
+15:00	Coventry	1 - 1	Spurs	Highfield Road
+15:00	Everton	0 - 0	Derby	Goodison Park
+15:00	Man Utd	3 - 0	Nott'm Forest	Old Trafford
+15:00	Middlesbrough	1 - 3	Liverpool	Riverside Stadium
+15:00	Newcastle	0 - 3	Leeds	St. James' Park
+15:00	Sheff Wed	0 - 1	Leicester	Hillsborough
+12:00	Arsenal	1 - 0	West Ham	Highbury
+12:00	Southampton	0 - 2	Chelsea	The Dell
+12:00	Wimbledon	2 - 1	Charlton	Plough Lane
+Monday 21 December 1998
+20:00	Charlton	0 - 1	Aston Villa	The Valley
+Sunday 20 December 1998
+16:00	Arsenal	3 - 1	Leeds	Highbury
+Saturday 19 December 1998
+15:00	Chelsea	2 - 0	Spurs	Stamford Bridge
+15:00	Coventry	1 - 1	Derby	Highfield Road
+15:00	Liverpool	2 - 0	Sheff Wed	Anfield
+15:00	Man Utd	2 - 3	Middlesbrough	Old Trafford
+15:00	Newcastle	1 - 0	Leicester	St. James' Park
+15:00	Nott'm Forest	2 - 2	Blackburn	City Ground
+15:00	Southampton	3 - 1	Wimbledon	The Dell
+15:00	West Ham	2 - 1	Everton	Boleyn Ground
+Wednesday 16 December 1998
+20:00	Man Utd	1 - 1	Chelsea	Old Trafford
+Monday 14 December 1998
+20:00	Leeds	2 - 0	Coventry	Elland Road
+Sunday 13 December 1998
+16:00	Wimbledon	1 - 0	Liverpool	Plough Lane
+15:00	Aston Villa	3 - 2	Arsenal	Villa Park
+Saturday 12 December 1998
+15:00	Blackburn	0 - 0	Newcastle	Ewood Park
+15:00	Derby	2 - 2	Chelsea	iPro Stadium
+15:00	Everton	1 - 0	Southampton	Goodison Park
+15:00	Leicester	3 - 1	Nott'm Forest	Filbert Street
+15:00	Middlesbrough	1 - 0	West Ham	Riverside Stadium
+15:00	Sheff Wed	3 - 0	Charlton	Hillsborough
+15:00	Spurs	2 - 2	Man Utd	White Hart Lane
+Wednesday 9 December 1998
+19:45	Chelsea	2 - 1	Aston Villa	Stamford Bridge
+Monday 7 December 1998
+20:00	Sheff Wed	3 - 2	Nott'm Forest	Hillsborough
+Sunday 6 December 1998
+16:00	Middlesbrough	2 - 2	Newcastle	Riverside Stadium
+Saturday 5 December 1998
+15:00	Aston Villa	1 - 1	Man Utd	Villa Park
+15:00	Blackburn	1 - 0	Charlton	Ewood Park
+15:00	Derby	0 - 0	Arsenal	iPro Stadium
+15:00	Everton	0 - 0	Chelsea	Goodison Park
+15:00	Leeds	4 - 0	West Ham	Elland Road
+15:00	Leicester	2 - 0	Southampton	Filbert Street
+15:00	Spurs	2 - 1	Liverpool	White Hart Lane
+15:00	Wimbledon	2 - 1	Coventry	Plough Lane
+Sunday 29 November 1998
+16:00	Liverpool	2 - 0	Blackburn	Anfield
+15:00	Arsenal	1 - 1	Middlesbrough	Highbury
+14:00	Man Utd	3 - 2	Leeds	Old Trafford
+Saturday 28 November 1998
+15:00	Charlton	1 - 2	Everton	The Valley
+15:00	Chelsea	1 - 1	Sheff Wed	Stamford Bridge
+15:00	Coventry	1 - 1	Leicester	Highfield Road
+15:00	Newcastle	3 - 1	Wimbledon	St. James' Park
+15:00	Nott'm Forest	2 - 2	Aston Villa	City Ground
+15:00	Southampton	0 - 1	Derby	The Dell
+15:00	West Ham	2 - 1	Spurs	Boleyn Ground
+Monday 23 November 1998
+20:00	Everton	1 - 0	Newcastle	Goodison Park
+Sunday 22 November 1998
+16:00	Derby	0 - 2	West Ham	iPro Stadium
+Saturday 21 November 1998
+15:00	Aston Villa	2 - 4	Liverpool	Villa Park
+15:00	Blackburn	0 - 2	Southampton	Ewood Park
+15:00	Leeds	4 - 1	Charlton	Elland Road
+15:00	Leicester	2 - 4	Chelsea	Filbert Street
+15:00	Middlesbrough	2 - 0	Coventry	Riverside Stadium
+15:00	Sheff Wed	3 - 1	Man Utd	Hillsborough
+15:00	Spurs	2 - 0	Nott'm Forest	White Hart Lane
+15:00	Wimbledon	1 - 0	Arsenal	Plough Lane
+Monday 16 November 1998
+20:00	Nott'm Forest	2 - 2	Derby	City Ground
+Sunday 15 November 1998
+16:00	Coventry	3 - 0	Everton	Highfield Road
+Saturday 14 November 1998
+15:00	Arsenal	0 - 0	Spurs	Highbury
+15:00	Charlton	1 - 1	Middlesbrough	The Valley
+15:00	Chelsea	3 - 0	Wimbledon	Stamford Bridge
+15:00	Liverpool	1 - 3	Leeds	Anfield
+15:00	Man Utd	3 - 2	Blackburn	Old Trafford
+15:00	Newcastle	1 - 1	Sheff Wed	St. James' Park
+15:00	Southampton	1 - 4	Aston Villa	The Dell
+15:00	West Ham	3 - 2	Leicester	Boleyn Ground
+Sunday 8 November 1998
+16:00	Leeds	2 - 1	Sheff Wed	Elland Road
+15:00	Arsenal	1 - 0	Everton	Highbury
+15:00	Man Utd	0 - 0	Newcastle	Old Trafford
+15:00	West Ham	1 - 1	Chelsea	Boleyn Ground
+Saturday 7 November 1998
+15:00	Aston Villa	3 - 2	Spurs	Villa Park
+15:00	Blackburn	1 - 2	Coventry	Ewood Park
+15:00	Charlton	0 - 0	Leicester	The Valley
+15:00	Liverpool	1 - 2	Derby	Anfield
+15:00	Nott'm Forest	0 - 1	Wimbledon	City Ground
+15:00	Southampton	3 - 3	Middlesbrough	The Dell
+Monday 2 November 1998
+20:00	Spurs	2 - 2	Charlton	White Hart Lane
+Sunday 1 November 1998
+16:00	Middlesbrough	1 - 1	Nott'm Forest	Riverside Stadium
+Saturday 31 October 1998
+15:00	Coventry	0 - 1	Arsenal	Highfield Road
+15:00	Derby	2 - 2	Leeds	iPro Stadium
+15:00	Everton	1 - 4	Man Utd	Goodison Park
+15:00	Leicester	1 - 0	Liverpool	Filbert Street
+15:00	Newcastle	0 - 3	West Ham	St. James' Park
+15:00	Sheff Wed	0 - 0	Southampton	Hillsborough
+15:00	Wimbledon	1 - 1	Blackburn	Plough Lane
+Sunday 25 October 1998
+16:00	Blackburn	1 - 2	Arsenal	Ewood Park
+15:00	Leeds	0 - 0	Chelsea	Elland Road
+Saturday 24 October 1998
+15:00	Aston Villa	1 - 1	Leicester	Villa Park
+15:00	Charlton	4 - 2	West Ham	The Valley
+15:00	Derby	1 - 1	Man Utd	iPro Stadium
+15:00	Liverpool	5 - 1	Nott'm Forest	Anfield
+15:00	Sheff Wed	0 - 0	Everton	Hillsborough
+15:00	Southampton	2 - 1	Coventry	The Dell
+15:00	Spurs	2 - 0	Newcastle	White Hart Lane
+15:00	Wimbledon	2 - 2	Middlesbrough	Plough Lane
+Monday 19 October 1998
+20:00	Leicester	2 - 1	Spurs	Filbert Street
+Sunday 18 October 1998
+16:00	Coventry	1 - 0	Sheff Wed	Highfield Road
+Saturday 17 October 1998
+15:00	Arsenal	1 - 1	Southampton	Highbury
+15:00	Chelsea	2 - 1	Charlton	Stamford Bridge
+15:00	Everton	0 - 0	Liverpool	Goodison Park
+15:00	Man Utd	5 - 1	Wimbledon	Old Trafford
+15:00	Middlesbrough	2 - 1	Blackburn	Riverside Stadium
+15:00	Newcastle	2 - 1	Derby	St. James' Park
+15:00	Nott'm Forest	1 - 1	Leeds	City Ground
+15:00	West Ham	0 - 0	Aston Villa	Boleyn Ground
+Sunday 4 October 1998
+16:00	Liverpool	1 - 1	Chelsea	Anfield
+15:00	Arsenal	3 - 0	Newcastle	Highbury
+Saturday 3 October 1998
+15:00	Blackburn	3 - 0	West Ham	Ewood Park
+15:00	Coventry	1 - 2	Aston Villa	Highfield Road
+15:00	Derby	0 - 1	Spurs	iPro Stadium
+15:00	Leeds	0 - 1	Leicester	Elland Road
+15:00	Middlesbrough	4 - 0	Sheff Wed	Riverside Stadium
+15:00	Nott'm Forest	0 - 1	Charlton	City Ground
+15:00	Southampton	0 - 3	Man Utd	The Dell
+15:00	Wimbledon	1 - 2	Everton	Plough Lane
+Monday 28 September 1998
+20:00	West Ham	1 - 0	Southampton	Boleyn Ground
+Sunday 27 September 1998
+16:00	Leicester	1 - 1	Wimbledon	Filbert Street
+Saturday 26 September 1998
+15:00	Aston Villa	1 - 0	Derby	Villa Park
+15:00	Charlton	1 - 1	Coventry	The Valley
+15:00	Chelsea	2 - 0	Middlesbrough	Stamford Bridge
+15:00	Everton	0 - 0	Blackburn	Goodison Park
+15:00	Newcastle	2 - 0	Nott'm Forest	St. James' Park
+15:00	Sheff Wed	1 - 0	Arsenal	Hillsborough
+15:00	Spurs	3 - 3	Leeds	White Hart Lane
+Thursday 24 September 1998
+20:00	Man Utd	2 - 0	Liverpool	Old Trafford
+Monday 21 September 1998
+20:00	Blackburn	3 - 4	Chelsea	Ewood Park
+Sunday 20 September 1998
+16:00	Arsenal	3 - 0	Man Utd	Highbury
+Saturday 19 September 1998
+15:00	Coventry	1 - 5	Newcastle	Highfield Road
+15:00	Derby	2 - 0	Leicester	iPro Stadium
+15:00	Leeds	0 - 0	Aston Villa	Elland Road
+15:00	Liverpool	3 - 3	Charlton	Anfield
+15:00	Middlesbrough	2 - 2	Everton	Riverside Stadium
+15:00	Nott'm Forest	0 - 0	West Ham	City Ground
+15:00	Southampton	1 - 1	Spurs	The Dell
+15:00	Wimbledon	2 - 1	Sheff Wed	Plough Lane
+Sunday 13 September 1998
+16:00	Spurs	0 - 3	Middlesbrough	White Hart Lane
+Saturday 12 September 1998
+15:00	Aston Villa	2 - 0	Wimbledon	Villa Park
+15:00	Charlton	1 - 2	Derby	The Valley
+15:00	Chelsea	2 - 1	Nott'm Forest	Stamford Bridge
+15:00	Everton	0 - 0	Leeds	Goodison Park
+15:00	Leicester	1 - 1	Arsenal	Filbert Street
+15:00	Man Utd	2 - 0	Coventry	Old Trafford
+15:00	Newcastle	4 - 0	Southampton	St. James' Park
+15:00	Sheff Wed	3 - 0	Blackburn	Hillsborough
+15:00	West Ham	2 - 1	Liverpool	Boleyn Ground
+Wednesday 9 September 1998
+20:00	Chelsea	0 - 0	Arsenal	Stamford Bridge
+20:00	Man Utd	4 - 1	Charlton	Old Trafford
+19:45	Aston Villa	1 - 0	Newcastle	Villa Park
+19:45	Derby	1 - 0	Sheff Wed	iPro Stadium
+19:45	Leicester	0 - 1	Middlesbrough	Filbert Street
+19:45	Liverpool	2 - 0	Coventry	Anfield
+19:45	Spurs	2 - 1	Blackburn	White Hart Lane
+19:45	West Ham	3 - 4	Wimbledon	Boleyn Ground
+Tuesday 8 September 1998
+19:45	Leeds	3 - 0	Southampton	Elland Road
+19:45	Nott'm Forest	0 - 2	Everton	City Ground
+Sunday 30 August 1998
+16:00	Newcastle	1 - 4	Liverpool	St. James' Park
+Saturday 29 August 1998
+15:00	Arsenal	0 - 0	Charlton	Highbury
+15:00	Blackburn	1 - 0	Leicester	Ewood Park
+15:00	Coventry	0 - 0	West Ham	Highfield Road
+15:00	Everton	0 - 1	Spurs	Goodison Park
+15:00	Middlesbrough	1 - 1	Derby	Riverside Stadium
+15:00	Sheff Wed	0 - 1	Aston Villa	Hillsborough
+15:00	Southampton	1 - 2	Nott'm Forest	The Dell
+15:00	Wimbledon	1 - 1	Leeds	Plough Lane
+Monday 24 August 1998
+20:00	Leeds	1 - 0	Blackburn	Elland Road
+Sunday 23 August 1998
+16:00	Aston Villa	3 - 1	Middlesbrough	Villa Park
+Saturday 22 August 1998
+15:00	Charlton	5 - 0	Southampton	The Valley
+15:00	Chelsea	1 - 1	Newcastle	Stamford Bridge
+15:00	Derby	0 - 0	Wimbledon	iPro Stadium
+15:00	Leicester	2 - 0	Everton	Filbert Street
+15:00	Liverpool	0 - 0	Arsenal	Anfield
+15:00	Nott'm Forest	1 - 0	Coventry	City Ground
+15:00	Spurs	0 - 3	Sheff Wed	White Hart Lane
+15:00	West Ham	0 - 0	Man Utd	Boleyn Ground
+Monday 17 August 1998
+20:00	Arsenal	2 - 1	Nott'm Forest	Highbury
+Sunday 16 August 1998
+16:00	Southampton	1 - 2	Liverpool	The Dell
+Saturday 15 August 1998
+15:00	Blackburn	0 - 0	Derby	Ewood Park
+15:00	Coventry	2 - 1	Chelsea	Highfield Road
+15:00	Everton	0 - 0	Aston Villa	Goodison Park
+15:00	Man Utd	2 - 2	Leicester	Old Trafford
+15:00	Middlesbrough	0 - 0	Leeds	Riverside Stadium
+15:00	Newcastle	0 - 0	Charlton	St. James' Park
+15:00	Sheff Wed	0 - 1	West Ham	Hillsborough
+15:00	Wimbledon	3 - 1	Spurs	Plough Lane

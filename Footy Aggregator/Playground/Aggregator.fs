@@ -9,10 +9,11 @@ type Location =
     | Home
     | Away
 
-type Filter = 
+type FilterType = 
     | ByDate
     | HomeOnly
     | AwayOnly
+
 
 type Team(teamName: string, allNames: string []) = 
     member this.TeamName = teamName
@@ -57,11 +58,11 @@ let private filterByDates startDate endDate (results:ResultForTeam list) =
     results
     |> List.where(fun result -> result.Date >= startDate && result.Date <= endDate)
 
-let private filterOnlyByDates startDate endDate = [filterByDates startDate endDate]
+let private filterOnlyByDates startDate endDate = [filterByDates startDate endDate;]
 let private filterByDatesTeamAndHomeSide startDate endDate = [filterByLocation Location.Home; filterByDates startDate endDate]
 let private filterByDatesTeamAndAwaySide startDate endDate = [filterByLocation Location.Away; filterByDates startDate endDate]
 
-let createLeagueTable sortFunction (filters: seq<ResultForTeam list -> ResultForTeam list>) (teams: Team list) (results: ResultForTeam list) =
+let createLeagueTable (aggregationParamters: AggregationParameters) (teams: Team list) (results: ResultForTeam list) =
     let findTeamFromTeamName (teams:Team list) (teamName:string) = 
         let teamExistsInList = teams |> List.exists(fun team -> team.GetAllNames() |> Array.contains teamName)
         match teamExistsInList with
@@ -97,9 +98,9 @@ let createLeagueTable sortFunction (filters: seq<ResultForTeam list -> ResultFor
     let mutable order = 1
     let returnVal = 
         results 
-        |> createAggregrateResultsForAllTeamsWithThreePointsForWin filters
+        |> createAggregrateResultsForAllTeamsWithThreePointsForWin aggregationParamters.Filters
         |> List.where(fun aggregateResult -> aggregateResult.Games > 0)
-        |> List.sortWith sortFunction
+        |> List.sortWith aggregationParamters.SortFunction
 
     returnVal |> List.iter(fun agg -> 
         agg.Position <- order
@@ -115,8 +116,20 @@ let sortByPointsThenGoalDifference = fun(x: AggregateResult) (y: AggregateResult
 let sortByName (x: AggregateResult) (y: AggregateResult) =
             if(x.Team.TeamName > y.Team.TeamName) then -1 else 1
 
-let createLeagueTableWithDefaultSorting teams results startDate endDate = createLeagueTable sortByPointsThenGoalDifference (filterOnlyByDates startDate endDate) teams results
-let createLeagueTableWithDefaultSortingAndFilterHome teams results startDate endDate = createLeagueTable sortByPointsThenGoalDifference (filterByDatesTeamAndHomeSide startDate endDate) teams results 
+let createLeagueTableWithDefaultSortingAndFilteringHome teams results startDate endDate =
+    let aggregationParamters = new AggregationParameters(sortByPointsThenGoalDifference, (filterByDatesTeamAndHomeSide startDate endDate))
+    createLeagueTable aggregationParamters teams results 
 
+let createLeagueTableWithDefaultSorting teams results startDate endDate (filterTypes: seq<FilterType>) = 
+    let mutable filters = [filterByDates startDate endDate]
+    if(filterTypes |> Seq.contains FilterType.HomeOnly) then
+        filters <- filters |> List.append [filterByLocation Location.Home]
+        else if(filterTypes |> Seq.contains FilterType.AwayOnly) then
+            filters <- filters |> List.append [filterByLocation Location.Away]
 
-let createLeagueTableWithNameSorting teams results startDate endDate = createLeagueTable sortByName teams results
+    let aggregationParamters = new AggregationParameters(sortByPointsThenGoalDifference, filters)
+    createLeagueTable aggregationParamters teams results
+
+let createLeagueTableWithNameSorting teams results startDate endDate = 
+    let aggregationParamters = new AggregationParameters(sortByName, (filterOnlyByDates startDate endDate))
+    createLeagueTable aggregationParamters teams results

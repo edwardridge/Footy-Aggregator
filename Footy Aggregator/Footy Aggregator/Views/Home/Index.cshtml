@@ -8,7 +8,7 @@
         $(document).ready(function () {
             $('#table').dataTable({
                 "ajax": {
-                    "url": "/api/league"
+                    "url": "/api/league/"
                     ,
                     "dataSrc": ""
                 },
@@ -39,7 +39,8 @@
                 var startDateToSend = getDateToSendFromDate($("#startDate").datepicker("getDate"), new Date(1900, 1, 1)).toISOString().substring(0,10);
                 var endDateToSend = getDateToSendFromDate($("#endDate").datepicker("getDate"), new Date(2100, 1, 1)).toISOString().substring(0, 10);
 
-                var url = "/api/league/" + startDateToSend + "/" + endDateToSend;
+                var additionalParams = $("#LocationFilter").val()   ;
+                var url = "/api/league/" + startDateToSend + "/" + endDateToSend + "/" + additionalParams;
                 $.ajax({
                     url: url
                 })
@@ -58,6 +59,14 @@
     <h1>Premier League Aggregator</h1>
     <span>Start date: <input type="text" id="startDate"></span>
     <span>End date: <input type="text" id="endDate"></span>
+    <span>Location: 
+        <select id="LocationFilter" name="LocFilter">
+            <option value="Home">Home</option>
+            <option value="Away">Away</option>
+            <option value="None" selected="selected">None</option>
+        </select>
+    </span>
+
     <button id="pressMe">Go!</button>
 
     <table id="table">

@@ -44,7 +44,7 @@ let ``League table correctly joins teams``() =
     let parsedTeams = teamParser.parseLines teamsToParse |> List.ofArray
     let results = [new ResultForTeam("Arsenal",2,1, new DateTime(2015,1,1), Location.Home); new ResultForTeam("Man C",1,2, new DateTime(2015,1,1), Location.Away)]
 //    let results = [firstResult]
-    let leagueTable = createLeagueTableWithDefaultSorting parsedTeams results (new DateTime(2014,1,1)) (new DateTime(2016,1,1))
+    let leagueTable = createLeagueTableWithDefaultSorting parsedTeams results (new DateTime(2014,1,1)) (new DateTime(2016,1,1)) []
     let topOfLeague = leagueTable |> List.head
     let bottomOfLeague = leagueTable |> List.item 1
     Assert.AreEqual("Arsenal",topOfLeague.Team.TeamName)
@@ -57,7 +57,7 @@ let ``Fills in missing team``() =
     let parsedTeams = teamParser.parseLines teamsToParse |> List.ofArray
     let results = [new ResultForTeam("Arsenal",2,1, new DateTime(2015,1,1), Location.Home); new ResultForTeam("Man C",1,2, new DateTime(2015,1,1), Location.Away)]
 //    let results = [firstResult]
-    let leagueTable = createLeagueTableWithDefaultSorting parsedTeams results (new DateTime(2014,1,1)) (new DateTime(2016,1,1))
+    let leagueTable = createLeagueTableWithDefaultSorting parsedTeams results (new DateTime(2014,1,1)) (new DateTime(2016,1,1)) []
     let topOfLeague = leagueTable |> List.head
     let bottomOfLeague = leagueTable |> List.item 1
     Assert.AreEqual("Arsenal",topOfLeague.Team.TeamName)
@@ -72,7 +72,7 @@ let ``Aggregates results``() =
     let firstResults = [new ResultForTeam("Arsenal",2,1, new DateTime(2015,1,1), Location.Home); new ResultForTeam("Man C",1,2, new DateTime(2015,1,1), Location.Away)]
     let secondResults = [new ResultForTeam("Gunners",1,1, new DateTime(2015,1,1), Location.Home); new ResultForTeam("Manchester City",1,1, new DateTime(2015,1,1), Location.Away)]
     let results = firstResults |> List.append secondResults
-    let leagueTable = createLeagueTableWithDefaultSorting parsedTeams results (new DateTime(2014,1,1)) (new DateTime(2016,1,1))
+    let leagueTable = createLeagueTableWithDefaultSorting parsedTeams results (new DateTime(2014,1,1)) (new DateTime(2016,1,1)) []
     let topOfLeague = leagueTable |> List.head
     let bottomOfLeague = leagueTable |> List.item 1
     Assert.AreEqual("Arsenal",topOfLeague.Team.TeamName)
@@ -91,7 +91,7 @@ let ``Removes teams with no results``() =
     let secondResults = [new ResultForTeam("Gunners",1,1, new DateTime(2015,1,1), Location.Home); new ResultForTeam("Manchester City",1,1, new DateTime(2015,1,1), Location.Away)]
     let thirdIgnoredResults = [new ResultForTeam("Derby",1,1, new DateTime(2016,1,1), Location.Home); new ResultForTeam("Manchester City",1,1, new DateTime(2016,1,1), Location.Away)]
     let results = firstResults |> List.append secondResults |> List.append thirdIgnoredResults  
-    let leagueTable = createLeagueTableWithDefaultSorting parsedTeams results (new DateTime(2014,1,1)) (new DateTime(2015,1,1))
+    let leagueTable = createLeagueTableWithDefaultSorting parsedTeams results (new DateTime(2014,1,1)) (new DateTime(2015,1,1)) []
     let topOfLeague = leagueTable |> List.head
     let bottomOfLeague = leagueTable |> List.item 1
     Assert.AreEqual(2, leagueTable.Length)

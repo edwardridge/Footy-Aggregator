@@ -39,7 +39,7 @@ let main argv =
         let endDate = DateTime.Parse(Array.item 1 splitLine)
 
 
-        let leagueTable = combinator.createLeagueWithTeamsAndSort startDate endDate
+        let leagueTable = combinator.createLeagueWithTeamsAndSort startDate endDate []
         printLeagueTable leagueTable
         line <- Console.ReadLine()
     0 // return an integer exit code
